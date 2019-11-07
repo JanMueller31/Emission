@@ -1,5 +1,7 @@
-- Name für Website
+- Name fuer Website
 - XML
+	=> xml schema
+	=> xml befuellen mit ca 20 datensÃ¤tzen
 - Was soll Website tun?
 	=> Filtern nach Fahrzeugen, Bilder anzeigen
 	=> Anmelden und Fahrzeuge speichern?
