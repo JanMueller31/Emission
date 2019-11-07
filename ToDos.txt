@@ -1,0 +1,6 @@
+- Name für Website
+- XML
+- Was soll Website tun?
+	=> Filtern nach Fahrzeugen, Bilder anzeigen
+	=> Anmelden und Fahrzeuge speichern?
+- Wie aufgebaut? Routes?
