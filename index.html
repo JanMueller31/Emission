@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+  <title>Autohaus Raff</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="Hintergrund">
+    <div class="jumbotron text-center header">
+      <h1>Autoverkauf Raff</h1>
+      <p>Hier finden Sie das Fahrzeug das Sie suchen!</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control Suche" placeholder="Suche" aria-label="Suche"
+          aria-describedby="basic-addon1">
+      </div>
+
+      <div>
+        <img src="Images/logo.png" class="logo">
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-3 filter">
+          <h3 class="filtertitle">Filter</h3>
+
+
+
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Marke</button>
+              <div class="dropdown-menu text-center">
+                <li class="dropdown-header">Wähle die Marke aus</li>
+                <a class="dropdown-item" href="#" id="Audi">Audi</a>
+                <a class="dropdown-item" href="#" id="Porsche">Porsche</a>
+                <a class="dropdown-item" href="#"  id="Bugatti">Bugatti</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">---beliebig---</a>
+                </select>
+               
+              </div>
+            </div>
+            <input type="inputField" id="Marke" class="form-control" aria-label="Text input with dropdown button"
+              placeholder="z.B. Audi, Porsche...">
+          </div>
+
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Modell</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+              placeholder="z.B. A1, A6">
+          </div>
+
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Preisspanne</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+          </div>
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Verbrauch</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="in Liter">
+          </div>
+
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Kilometerstand</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="in km">
+          </div>
+
+
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Schadstoffklasse</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button"
+              placeholder="z.B. Euro 1">
+          </div>
+
+
+
+
+
+
+
+
+          <button type="button" class="btn btn-warning">Suchen</button>
+          <button type="button" class="btn btn-warning">Reset</button>
+
+        </div>
+
+
+
+
+
+        <div class="col-sm-6 carblock">
+          <h3>Treffer:</h3>
+          <div class="chosencars">
+          <div class="boxes">
+             <img src="Images/Porsche.jpg">  
+             <button type="button" class="btn btn-warning detailbtn">Details</button>  
+          </div>
+          <div class="boxes">
+             <img src="Images/Audi.jpg">    
+             <button type="button" class="btn btn-warning detailbtn">Details</button>  
+          </div>
+          <div class="boxes">
+             <img src="Images/BMW.jpg">  
+             <button type="button" class="btn btn-warning detailbtn">Details</button>    
+          </div>
+          <div class="boxes">
+             <img src="Images/Mercedes.jpg">  
+             <button type="button" class="btn btn-warning detailbtn">Details</button>    
+          </div>
+          <div class="boxes">
+             <img src="Images/Polizei.jpg">  
+             <button type="button" class="btn btn-warning detailbtn">Details</button>    
+          </div>
+            </div>
+
+        </div>
+        
+        <script src="index.js"></script>
+
+</body>
+
+</html>
+
+
+</p>
+</div>
+<p></p>
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
