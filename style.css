@@ -96,3 +96,54 @@
 .cardetail img{
     width: 800px;
 }
+
+
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+  /* für die Schiene zum bewegen*/
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    margin-top: 11px;
+    margin-left: 8px;
+    height: 1px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: .9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 10;
+  }
+  
+  /* für den Balken zum bewegen*/
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(436, 221, 8);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  
+.range{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+
+.detailbox{
+    max-height: 500px;
+    overflow: auto;
+}
+
+.searchbtn{
+    margin-left: 250px;
+}
