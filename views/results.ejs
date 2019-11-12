@@ -1,0 +1,15 @@
+<%- include('./partials/filter.ejs') %>
+
+<% autos.forEach(car => { %>
+<div>
+    <a href="/car/<%=car.$.id %>">
+        <img height="100" width="150" src="<%= car.imgSrc %>">      
+        <div>Marke:</div>
+        <div><%= car.make %></div>
+    </a>
+        <div>Modell:</div>
+        <div><%= car.model %></div>
+        <div>Preis:</div>
+        <div><%= car.price %></div>
+</div>
+<% }) %>

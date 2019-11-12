@@ -1,0 +1,1122 @@
+<?xml version = "1.0"?>
+<autohaus>
+    <auto marke = "Audi" modell= "A1 Sportback 25 TFSI" baureihe="A1 (GB) Sportback">
+        <preis>
+            <wert>19950</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21/ Herstellerschlüsselnummer-->  
+            <typsnr>BNN</typsnr> <!--b22/ Typschlüsselnummer-->
+            <fahrzeugklasse>Kleinwagen</fahrzeugklasse> <!--5-->
+            <typ>quattro S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>5.8</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>3.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>4.6</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>104</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>5.7</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>4.8</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>6.9</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>124</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A3 Sportback 30 TFSI" baureihe="A3 (8V) Sportback">
+         <preis>
+            <wert>25800</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BHX</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>sport S tronic (7-Gang)</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Eurp 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>5.9</wert>
+                        <einheit> l/ 100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.8</wert>
+                        <einheit>l/ 100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.2</wert>
+                        <einheit>l/ 100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>119</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.5</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.3</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>7.8</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>141</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "S3 Limousine" baureihe="S3 (8V) Limousine">
+        <preis>
+            <wert>46600</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>AYD</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Eurp 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.7</wert>
+                        <einheit> l/ 100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>5.8</wert>
+                        <einheit>l/ 100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.8</wert>
+                        <einheit>l/ 100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>155</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>7.7</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>6.9</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>11.0</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>180</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "RS3 Sportback" baureihe="RS3 (8V) Sportback">
+         <preis>
+            <wert>55900</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>1860</herstellersnr> <!--b21-->  
+            <typsnr>AAC</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>11.3</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>6.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>8.5</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>194</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.6</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.1</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>14.2</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>214</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A4 35 TFSI" baureihe="A4 (B9) Limousine">
+        <preis>
+            <wert>33600</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BNR</typsnr> <!--b22-->
+            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>7.5</wert>
+                        <einheit> l/ 100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.6</wert>
+                        <einheit>l/ 100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.7</wert>
+                        <einheit>l/ 100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>129</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.5</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>8.8</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>147</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "RS4 Avant" baureihe="RS4 (B9) Avant">
+        <preis>
+            <wert>81400</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>1860</herstellersnr> <!--b21-->
+            <typsnr>AAS</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>tiptronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Eurp 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>12.5</wert>
+                        <einheit> l/ 100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>7.2</wert>
+                        <einheit>l/ 100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>9.2</wert>
+                        <einheit>l/ 100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>208</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.5</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.4</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>14.6</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>216</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A5 Sportback 40 TFSI" baureihe="A5 (F5) Sportback">
+        <preis>
+            <wert>42900</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BMR</typsnr> <!--b22-->
+            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>7.7</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.7</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.8</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>131</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.4</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.9</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>9.1</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>152</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A6 45 TFSI" baureihe="A6 (C8) Limousine">
+        <preis>
+            <wert>51400</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->  
+            <typsnr>BOQ</typsnr> <!--b22-->
+            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP_EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.4</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>5.6</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.6</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>150</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>7.7</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>6.9</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>11.0</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>181</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "S6 Avant 45 TFSI " baureihe="S6 (C8) Avant">
+        <preis>
+            <wert>66300</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BOR</typsnr> <!--b22-->
+            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.0</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>5.7</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.5</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>149</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>7.5</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>6.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>10.5</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>174</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A7 Sportback 45 TFSI" baureihe="A7 (4K) Sportback">
+        <preis>
+            <wert>58780</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BMU</typsnr> <!--b22-->
+            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.0</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>5.5</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.4</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>146</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>7.1</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>6.4</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>10.4</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>168</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "A8 L 55 TFSI" baureihe="A8 (D5)">
+        <preis>
+            <wert>93500</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->  
+            <typsnr>BMK</typsnr> <!--b22-->
+            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro tiptronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>11.1</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>6.3</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>8.1</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>184</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.6</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.1</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>15.4</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>218</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "Q2 30 TFSI" baureihe="Q2 (GA)">
+        <preis>
+            <wert>23900</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BJT</typsnr> <!--b22-->
+            <fahrzeugklasse>Info</fahrzeugklasse> <!--5-->          
+            <typ>sport</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>6.4</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.5</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.2</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>118</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.4</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.1</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>7.3</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>135</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "SQ2 TFSI" baureihe="SQ2">
+        <preis>
+            <wert>44500</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->  
+            <typsnr>BOO</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.6</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>6.0</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>7.0</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>159</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.2</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>7.4</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>11.3</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>192</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+    
+    <auto marke = "Audi" modell= "Q3 Sportback 35 TFSI" baureihe="Q3 (F3) Sportback">
+        <preis>
+            <wert>36400</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BQS</typsnr> <!--b22-->
+            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>7.1</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.7</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>130</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.8</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>8.4</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>149</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "Q5 45 TFSI" baureihe="Q5 (FY)">
+        <preis>
+            <wert>53900</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BPB</typsnr> <!--b22-->
+            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>9.1</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>6.1</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>7.2</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>164</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.3</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>7.4</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>11.4</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>192</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "Q7 55 TFSI" baureihe="Q7 (4M)">
+        <preis>
+            <wert>70500</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->
+            <typsnr>BRB</typsnr> <!--b22-->
+            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro tiptronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>10.9</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>7.4</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>8.7</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>164</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>10.4</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.7</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>14.3</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>234</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "TT Coupé 40 TFSI" baureihe="TT (8S) Coupé">
+        <preis>
+            <wert>54500</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>8307</herstellersnr> <!--b21-->
+            <typsnr>ACH</typsnr> <!--b22-->
+            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>8.0</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.0</wert>
+                        <einheit>l/100km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>137</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.5</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.8</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>9.6</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>153</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+    
+    <auto marke = "Audi" modell= "R8 Spyder 5.2 FSI V10" baureihe="R8 (4S) Spyder">
+        <preis>
+            <wert>179000</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>1860</herstellersnr> <!--b21-->  
+            <typsnr>AAW</typsnr> <!--b22-->
+            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>19.6</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>9.2</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>13.0</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>297</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>11.0</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>11.3</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>23.5</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>301</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "R8 Coupé 5.2 FSI V10" baureihe="R8 (4S) Coupé">
+        <preis>
+            <wert>166000</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>1860</herstellersnr> <!--b21-->  
+            <typsnr>AAU</typsnr> <!--b22-->
+            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro S tronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>19.4</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>9.1</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>12.9</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>297</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>10.9</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>11.1</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>23.4</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>297</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto marke = "Audi" modell= "Q8 55 TFSI" baureihe="R8 (4M)">
+        <preis>
+            <wert>77300</wert>
+            <einheit>EURO</einheit>
+        </preis>
+        <zulassungsbescheinigung>
+            <herstellersnr>0588</herstellersnr> <!--b21-->  
+            <typsnr>BPV</typsnr> <!--b22-->
+            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
+            <typ>quattro tiptronic</typ> <!--d2-->
+            <hersteller>Audi</hersteller>  <!--2-->
+            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
+            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>11.4</wert>
+                        <einheit> l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>7.4</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>8.9</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>202</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>10.4</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.9</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>14.8</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>238</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+</autohaus>

@@ -1,20 +1,35 @@
 const express = require('express')
 const router = express.Router()
 const db = require('../models/model')
+const find = require('../models/dataFind')
 //db = JSON.stringify(database)
 
 router.get('/', (req,res) => {
-    res.render('cars')
+    res.render('index',{
+        autoModell: null,
+        searchOptions: req.body
+    })
 })
 
-router.get('/car', (req,res) => {
+router.get('/search', (req,res) => {
+    let searchOptions = {}
+    if (req.query.modell != null && req.query.modell !== '') {
+      searchOptions.modell = req.query.modell
+    }
+    if (req.query.marke != null && req.query.marke !== '') {
+        searchOptions.marke = req.query.marke
+      }
+    cars = find(searchOptions) 
+    res.render('results',{
+        autos: cars,
+        searchOptions: req.query
+    })
+})
 
-    
-
-    res.render('index',{
-        autoMarke:db.database.car[0].make,
-        autoModell:db.database.car[0].model,
-        autoEmission:db.database.car[0].emission,
+router.get('/car/:id', (req,res)=>{
+    auto = find(req.params.id)
+    res.render('car', {
+        car: auto[0]
     })
 })
 

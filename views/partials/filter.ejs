@@ -1,0 +1,29 @@
+<h2>Fahrzeugsuche</h2>
+<form action="/search" method="GET">
+    <div>
+        <div>Marke:</div>
+        <input type = "text" placeholder = "z.B. BMW" name="marke" value="<%= searchOptions.marke %>"/>
+
+        <div>Modell:</div>
+        <input type="text" placeholder = "z.B. 4er" name="modell" value="<%= searchOptions.modell %>">
+
+        <div>km bis</div>
+        <input type="text" placeholder = "z.b. 100.000">
+
+        <div>Preis bis:</div>
+        <input type="text" placeholder = "z.b. 10.000">
+
+        <div>Fahrzeugklasse:</div>
+        <input type="text" placeholder = "Fahrzeugklasse">
+
+        <div>Kraftstoffart:</div>
+        <input type="text" placeholder = "z.b. Benzin">
+
+        <div>Schadstoffklasse:</div>
+        <input type="text" placeholder = "z.b. Euro6 Diesel">
+
+        <div>Emission bis: (in g/km)</div>
+        <input type="text" placeholder = "z.b. 100">
+    </div>
+    <button type="submit">Suche</button>
+</form>

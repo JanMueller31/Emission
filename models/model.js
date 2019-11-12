@@ -12,27 +12,16 @@ const xmlParser = xml2js.Parser({
     explicitArray: false
 })
 
-function dbData(){
-    var dbData = null
-    var db = fs.readFileSync(__dirname + '/test.xml','utf8', (err,data)=>{
+function populateDatabaseWithData(){
+    var databaseData = fs.readFileSync(__dirname + '/test.xml','utf8', (err,data)=>{
         if (err) console.log(err);
     })
-    xmlParser.parseString(db, (err,result)=>{
+    xmlParser.parseString(databaseData, (err,result)=>{
         if (err) console.log(err)
-        //console.log(result)
-        //dbData = JSON.stringify(result)
-        dbData = result
+        databaseData = result
     })
-    return dbData
+    return databaseData
 }
-var database = dbData()
+var database = populateDatabaseWithData()
 
-
-
-
-function find(){
-    
-}
-
-
-module.exports = database // (json?) array -> übergeben an router
+module.exports = database
