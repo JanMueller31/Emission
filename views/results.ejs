@@ -1,15 +1,19 @@
 <%- include('./partials/filter.ejs') %>
 
+<% if (Object.keys(autos).length == 0) { %>
+    <div>Keine Ergebnisse zu dieser Suche gefunden</div>
+<% } %>
+ 
 <% autos.forEach(car => { %>
 <div>
     <a href="/car/<%=car.$.id %>">
         <img height="100" width="150" src="<%= car.imgSrc %>">      
         <div>Marke:</div>
-        <div><%= car.make %></div>
+        <div><%= car.zulassungsbescheinigung.marke._ %></div>
     </a>
         <div>Modell:</div>
-        <div><%= car.model %></div>
+        <div><%= car.zulassungsbescheinigung.modell._ %></div>
         <div>Preis:</div>
-        <div><%= car.price %></div>
+        <div><%= car.fahrzeugdaten.preis.wert %></div>
 </div>
 <% }) %>

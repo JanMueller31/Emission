@@ -1,24 +1,44 @@
 const express = require('express')
 const router = express.Router()
-const db = require('../models/model')
-const find = require('../models/dataFind')
-//db = JSON.stringify(database)
+const find = require('../models/dataQuery')
 
 router.get('/', (req,res) => {
     res.render('index',{
         autoModell: null,
-        searchOptions: req.body
+        searchOptions: ""
     })
 })
 
 router.get('/search', (req,res) => {
     let searchOptions = {}
-    if (req.query.modell != null && req.query.modell !== '') {
-      searchOptions.modell = req.query.modell
-    }
-    if (req.query.marke != null && req.query.marke !== '') {
-        searchOptions.marke = req.query.marke
+    if (req.query.suche != null && req.query.suche !== '') {
+        searchOptions.suche = req.query.suche
       }
+    if (req.query.autoMarke != null && req.query.autoMarke !== '') {
+      searchOptions.marke = req.query.autoMarke
+    }
+    if (req.query.autoModell != null && req.query.autoModell !== '') {
+        searchOptions.modell = req.query.autoModell
+    }
+    if (req.query.autoKMStand != null && req.query.autoKMStand !== '') {
+        searchOptions.KMStand = req.query.autoKMStand
+    }
+    if (req.query.autoPreis != null && req.query.autoPreis !== '') {
+        searchOptions.preis = req.query.autoPreis
+    }
+    if (req.query.autoFahrzeugklasse != null && req.query.autoFahrzeugklasse !== '') {
+        searchOptions.fahrzeugklasse = req.query.autoFahrzeugklasse
+    }
+    if (req.query.autoKraftstoffart != null && req.query.autoKraftstoffart !== '') {
+        searchOptions.kraftstoffart = req.query.autoKraftstoffart
+    }
+    if (req.query.autoSchadstoffklasse != null && req.query.autoSchadstoffklasse !== '') {
+        searchOptions.schadstoffklasse = req.query.autoSchadstoffklasse
+    }
+    if (req.query.autoEmission != null && req.query.autoEmission !== '') {
+        searchOptions.emission = req.query.autoEmission
+    }
+    
     cars = find(searchOptions) 
     res.render('results',{
         autos: cars,
@@ -29,7 +49,8 @@ router.get('/search', (req,res) => {
 router.get('/car/:id', (req,res)=>{
     auto = find(req.params.id)
     res.render('car', {
-        car: auto[0]
+        car: auto[0],
+        searchOptions: req.query
     })
 })
 

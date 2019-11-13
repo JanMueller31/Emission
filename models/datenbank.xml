@@ -1,18 +1,34 @@
-<?xml version = "1.0"?>
-<autohaus>
-    <auto marke = "Audi" modell= "A1 Sportback 25 TFSI" baureihe="A1 (GB) Sportback">
-        <preis>
-            <wert>19950</wert>
-            <einheit>EURO</einheit>
-        </preis>
+<?xml version = "1.0" encoding="UTF-8"?>
+<autohaus xmlns="https://www.google.com?" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="schema.xsd">
+    <auto id= "01" name= "Audi A1 Sportback 25 TFSI" baureihe= "A1 (GB) Sportback"> 
+        <fahrzeugdaten>
+            <preis>
+                <wert>19950</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>15530</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>70</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21/ Herstellerschlüsselnummer-->  
-            <typsnr>BNN</typsnr> <!--b22/ Typschlüsselnummer-->
-            <fahrzeugklasse>Kleinwagen</fahrzeugklasse> <!--5-->
-            <typ>quattro S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>  
+            <typschluesselnummer bezeichnung="b22">BNN</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro S tronic</typ>
+            <modell bezeichnung="d2">A1</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schraegheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse> 
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -54,21 +70,38 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <imgSrc>/Images/A1 Sportback 25 TFSI/Bild_vorne.jpg</imgSrc>
     </auto>
 
-    <auto marke = "Audi" modell= "A3 Sportback 30 TFSI" baureihe="A3 (8V) Sportback">
-         <preis>
-            <wert>25800</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id= "02" name = "Audi A3 Sportback 30 TFSI" baureihe= "A3 (8V) Sportback">
+        <fahrzeugdaten>
+            <preis>
+                <wert>25800</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>25670</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>85</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BHX</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>sport S tronic (7-Gang)</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Eurp 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BHX</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2" >sport S tronic (7-Gang)</typ> 
+            <modell bezeichnung="d2">A3</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schrägheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2016</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -112,19 +145,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "S3 Limousine" baureihe="S3 (8V) Limousine">
-        <preis>
-            <wert>46600</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id= "03" name = "Audi S3 Limousine" baureihe= "S3 (8V) Limousine">
+        <fahrzeugdaten>
+            <preis>
+                <wert>46600</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>30670</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>85</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>AYD</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Eurp 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">AYD</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">S3</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Stufenheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2016</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -168,19 +217,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "RS3 Sportback" baureihe="RS3 (8V) Sportback">
-         <preis>
-            <wert>55900</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id= "04" name = "Audi RS3 Sportback" baureihe= "RS3 (8V) Sportback">
+        <fahrzeugdaten>
+            <preis>
+                <wert>55900</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>28500</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>294</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>1860</herstellersnr> <!--b21-->  
-            <typsnr>AAC</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">1860</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">AAC</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">RS3</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schraegheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2017</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -224,19 +289,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "A4 35 TFSI" baureihe="A4 (B9) Limousine">
-        <preis>
-            <wert>33600</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "05" name = "Audi A4 35 TFSI" baureihe = "A4 (B9) Limousine">
+         <fahrzeugdaten>
+            <preis>
+                <wert>33600</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>22690</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>294</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BNR</typsnr> <!--b22-->
-            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BNR</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">A4</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Stufenheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2017</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -280,19 +361,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "RS4 Avant" baureihe="RS4 (B9) Avant">
-        <preis>
-            <wert>81400</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "06" name = "Audi RS4 Avant" baureihe = "RS4 (B9) Avant">
+        <fahrzeugdaten>
+            <preis>
+                <wert>81400</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>14770</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>331</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>1860</herstellersnr> <!--b21-->
-            <typsnr>AAS</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>tiptronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Eurp 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">1860</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">AAS</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">tiptronic</typ> 
+            <modell bezeichnung="d2">S3</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Kombi</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -336,19 +433,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "A5 Sportback 40 TFSI" baureihe="A5 (F5) Sportback">
-        <preis>
-            <wert>42900</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "07" name = "Audi A5 Sportback 40 TFSI" baureihe = "A5 (F5) Sportback">
+        <fahrzeugdaten>
+            <preis>
+                <wert>42900</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>11950</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>140</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BMR</typsnr> <!--b22-->
-            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BMR</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">A5</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schraegheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -392,19 +505,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "A6 45 TFSI" baureihe="A6 (C8) Limousine">
-        <preis>
-            <wert>51400</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "08" name = "Audi A6 45 TFSI" baureihe = "A6 (C8) Limousine">
+        <fahrzeugdaten>
+            <preis>
+                <wert>51400</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>20566</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>180</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->  
-            <typsnr>BOQ</typsnr> <!--b22-->
-            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP_EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BOQ</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro S tronic</typ> 
+            <modell bezeichnung="d2">A6</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Stufenheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -448,19 +577,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "S6 Avant 45 TFSI " baureihe="S6 (C8) Avant">
-        <preis>
-            <wert>66300</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "09" name = "Audi S6 Avant 45 TFSI " baureihe = "S6 (C8) Avant">
+        <fahrzeugdaten>
+            <preis>
+                <wert>66300</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>5778</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>257</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BOR</typsnr> <!--b22-->
-            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BOR</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">S6</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Kombi</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -502,21 +647,38 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <imgSrc>/Images/S6 Avant 45 TFSI/Bild_seite.jpg</imgSrc>
     </auto>
 
-    <auto marke = "Audi" modell= "A7 Sportback 45 TFSI" baureihe="A7 (4K) Sportback">
-        <preis>
-            <wert>58780</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "10" name = "Audi A7 Sportback 45 TFSI" baureihe = "A7 (4K) Sportback">
+        <fahrzeugdaten>
+            <preis>
+                <wert>58780</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>8458</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>180</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BMU</typsnr> <!--b22-->
-            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BMU</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">A7</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schraegheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -560,19 +722,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "A8 L 55 TFSI" baureihe="A8 (D5)">
-        <preis>
-            <wert>93500</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id= "11" name = "Audi A8 L 55 TFSI" baureihe="A8 (D5)">
+        <fahrzeugdaten>
+            <preis>
+                <wert>93500</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>17664</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>250</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->  
-            <typsnr>BMK</typsnr> <!--b22-->
-            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro tiptronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BMK</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro tiptronic</typ> 
+            <modell bezeichnung="d2">A8</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Stufenheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -616,19 +794,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "Q2 30 TFSI" baureihe="Q2 (GA)">
-        <preis>
-            <wert>23900</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id ="12" name = "Audi Q2 30 TFSI" baureihe = "Q2 (GA)">
+        <fahrzeugdaten>
+            <preis>
+                <wert>23900</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>16450</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>85</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BJT</typsnr> <!--b22-->
-            <fahrzeugklasse>Info</fahrzeugklasse> <!--5-->          
-            <typ>sport</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BJT</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">sport</typ> 
+            <modell bezeichnung="d2">Q2</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -672,19 +866,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "SQ2 TFSI" baureihe="SQ2">
-        <preis>
-            <wert>44500</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "13" name = "Audi SQ2 TFSI" baureihe = "SQ2">
+        <fahrzeugdaten>
+            <preis>
+                <wert>44500</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>33210</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>221</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->  
-            <typsnr>BOO</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BOO</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">SQ2</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -728,19 +938,35 @@
         </emissionsdaten>
     </auto>
     
-    <auto marke = "Audi" modell= "Q3 Sportback 35 TFSI" baureihe="Q3 (F3) Sportback">
-        <preis>
-            <wert>36400</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "14" name = "Audi Q3 Sportback 35 TFSI" baureihe = "Q3 (F3) Sportback">
+        <fahrzeugdaten>
+            <preis>
+                <wert>36400</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>24112</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>110</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BQS</typsnr> <!--b22-->
-            <fahrzeugklasse>Untere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BQS</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">Q3</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -784,19 +1010,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "Q5 45 TFSI" baureihe="Q5 (FY)">
-        <preis>
-            <wert>53900</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "15" name = "Audi Q5 45 TFSI" baureihe = "Q5 (FY)">
+        <fahrzeugdaten>
+            <preis>
+                <wert>53900</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>23772</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>180</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BPB</typsnr> <!--b22-->
-            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BPB</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro S tronic</typ> 
+            <modell bezeichnung="d2">Q5</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -840,19 +1082,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "Q7 55 TFSI" baureihe="Q7 (4M)">
-        <preis>
-            <wert>70500</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "16" name = "Audi Q7 55 TFSI" baureihe = "Q7 (4M)">
+        <fahrzeugdaten>
+            <preis>
+                <wert>70500</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>17663</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>250</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->
-            <typsnr>BRB</typsnr> <!--b22-->
-            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro tiptronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BRB</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro tiptronic</typ> 
+            <modell bezeichnung="d2">Q7</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -896,19 +1154,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "TT Coupé 40 TFSI" baureihe="TT (8S) Coupé">
-        <preis>
-            <wert>54500</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "17" name = "Audi TT Coupé 40 TFSI" baureihe = "TT (8S) Coupé">
+        <fahrzeugdaten>
+            <preis>
+                <wert>54500</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>33289</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>145</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>8307</herstellersnr> <!--b21-->
-            <typsnr>ACH</typsnr> <!--b22-->
-            <fahrzeugklasse>Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">8307</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">ACH</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">S tronic</typ> 
+            <modell bezeichnung="d2">TT</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Coupe</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2017</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -952,19 +1226,35 @@
         </emissionsdaten>
     </auto>
     
-    <auto marke = "Audi" modell= "R8 Spyder 5.2 FSI V10" baureihe="R8 (4S) Spyder">
-        <preis>
-            <wert>179000</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "18" name = "Audi R8 Spyder 5.2 FSI V10" baureihe = "R8 (4S) Spyder">
+        <fahrzeugdaten>
+            <preis>
+                <wert>179000</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>12223</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>397</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>1860</herstellersnr> <!--b21-->  
-            <typsnr>AAW</typsnr> <!--b22-->
-            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">1860</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">AAW</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0100</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro S tronic</typ> 
+            <modell bezeichnung="d2">R8</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Roadster</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -1008,19 +1298,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "R8 Coupé 5.2 FSI V10" baureihe="R8 (4S) Coupé">
-        <preis>
-            <wert>166000</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "19" name = "Audi R8 Coupé 5.2 FSI V10" baureihe = "R8 (4S) Coupé">
+        <fahrzeugdaten>
+            <preis>
+                <wert>166000</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>14664</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>397</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>1860</herstellersnr> <!--b21-->  
-            <typsnr>AAU</typsnr> <!--b22-->
-            <fahrzeugklasse>Oberklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro S tronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super Plus</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">1860</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">AAU</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro S tronic</typ> 
+            <modell bezeichnung="d2">R8</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Coupe</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -1064,19 +1370,35 @@
         </emissionsdaten>
     </auto>
 
-    <auto marke = "Audi" modell= "Q8 55 TFSI" baureihe="R8 (4M)">
-        <preis>
-            <wert>77300</wert>
-            <einheit>EURO</einheit>
-        </preis>
+    <auto id = "20" name = "Audi Q8 55 TFSI" baureihe = "R8 (4M)">
+          <fahrzeugdaten>
+            <preis>
+                <wert>77300</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>24288</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>250</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
         <zulassungsbescheinigung>
-            <herstellersnr>0588</herstellersnr> <!--b21-->  
-            <typsnr>BPV</typsnr> <!--b22-->
-            <fahrzeugklasse>Obere Mittelklasse</fahrzeugklasse> <!--5-->
-            <typ>quattro tiptronic</typ> <!--d2-->
-            <hersteller>Audi</hersteller>  <!--2-->
-            <schadstoffklasse>Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  <!--v9-->
-            <kraftstoffart>Super</kraftstoffart> <!--p3-->
+            <herstellerschluesselnummer bezeichnung="b21">0588</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BPV</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Audi</marke>
+            <typ bezeichnung="d2">quattro tiptronic</typ> 
+            <modell bezeichnung="d2">Q8</modell>
+            <hersteller bezeichnung="2">Audi</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
         </zulassungsbescheinigung>
         <emissionsdaten>
             <nefz>
@@ -1114,6 +1436,438 @@
                 </langsam>
                 <co2_emission_kombi>
                     <wert>238</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "21" name = "VW Golf 1.0 TSI" baureihe = "Golf (VII)">
+          <fahrzeugdaten>
+            <preis>
+                <wert>18075</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>21232</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>63</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">0603</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">CCR</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">VW</marke>
+            <typ bezeichnung="d2">Trendline</typ> 
+            <modell bezeichnung="d2">Golf</modell>
+            <hersteller bezeichnung="2">VW</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Schraegheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6b (NEFZ)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6b (NEFZ)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>5.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.1</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>4.8</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>108</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>5.7</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>6.8</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>4.5</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>123</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "22" name = "VW Passat Variant 1.5 TSI" baureihe = "Passat (B8) Variant">
+          <fahrzeugdaten>
+            <preis>
+                <wert>40045</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>11997</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>110</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">0603</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">CIA</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">VW</marke>
+            <typ bezeichnung="d2">Elegance</typ> 
+            <modell bezeichnung="d2">Passat</modell>
+            <hersteller bezeichnung="2">VW</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Kombi</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6b (NEFZ)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6b (NEFZ)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>6.8</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.7</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.5</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>125</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.6</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>8.3</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>146</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "23" name = "VW T-Roc 1.5 TSI" baureihe = "T-Roc">
+          <fahrzeugdaten>
+            <preis>
+                <wert>25975</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>21445</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>110</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">0603</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">CED</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">VW</marke>
+            <typ bezeichnung="d2">Style</typ> 
+            <modell bezeichnung="d2">T-Roc</modell>
+            <hersteller bezeichnung="2">VW</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., SUV</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>6.6</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.8</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>5.4</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>123</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>7.3</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.7</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>7.8</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>150</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "24" name = "Mercedes C 160 T-Modell" baureihe = "C-Klasse (205) T-Modell">
+          <fahrzeugdaten>
+            <preis>
+                <wert>36980</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>11323</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>95</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">1313</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">EQD</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Mercedes</marke>
+            <typ bezeichnung="d2">Avantgarde</typ> 
+            <modell bezeichnung="d2">C-Klasse</modell>
+            <hersteller bezeichnung="2">Mercedes</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Kombi</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>7.6</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>5.1</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>6.9</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>138</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>6.3</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>5.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>8.2</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>145</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "25" name = "Mercedes E 200 Coupé" baureihe = "E-Klasse (238) Coupé">
+          <fahrzeugdaten>
+            <preis>
+                <wert>48933</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>24389</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>135</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">1313</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">GXJ</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Mercedes</marke>
+            <typ bezeichnung="d2">Avantgarde 9G-TRONIC</typ> 
+            <modell bezeichnung="d2">E-Klasse</modell>
+            <hersteller bezeichnung="2">Mercedes</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Coupe</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2018</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>9.4</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>6.0</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>7.2</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>166</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.6</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>7.7</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>11.5</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>193</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+    </auto>
+
+    <auto id = "26" name = "Mercedes S 450 Coupé" baureihe = "S-Klasse (217) Coupé">
+          <fahrzeugdaten>
+            <preis>
+                <wert>102757</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>28121</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>270</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">1313</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">HLA</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Mercedes</marke>
+            <typ bezeichnung="d2">4MATIC 9G-TRONIC</typ> 
+            <modell bezeichnung="d2">S-Klasse</modell>
+            <hersteller bezeichnung="2">Mercedes</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Coupe</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super</kraftstoffart> 
+            <baujahr bezeichnung="I">2017</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>13.2</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>7.1</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>9.3</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>213</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>8.6</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>8.1</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>14.5</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>216</wert>
                     <einheit>g/km</einheit>
                 </co2_emission_kombi>
             </wltp>
