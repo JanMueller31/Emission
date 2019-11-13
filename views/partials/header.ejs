@@ -1,7 +1,15 @@
-<a href="/">
-    <h1>Logo</h1>
-</a>
-<h1>Raff Autohaus</h1>
-
-<div>Suche:</div>
-<input type = "text" placeholder = "z.B. Marke oder Modell" name="suche" value="<%= searchOptions.suche %>"/>
+<header>
+    <div class="container-fluid header-container">
+        <div class="row border border-top-0 border-left-0 border-right-0">
+            <div class="col-sm">
+                <a href="/">
+                    <img class="img-fluid" src="/Images/0_Sonstige/logo.jpeg">
+                </a>
+            </div>
+            <div class="col-sm header-suche">
+                <div>Suche:</div>
+                <input type = "text" placeholder = "z.B. Marke oder Modell" name="suche" value="<%= searchOptions.suche %>"/>
+            </div>
+        </div>
+    </div>
+</header>

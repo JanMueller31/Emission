@@ -19,7 +19,7 @@ function find(searchOptions){
 
         //check ob Marke angegeben und setzt treffer auf false falls nicht übereinstimmend
         if (searchOptions.marke !== undefined && searchOptions.marke != ' '){
-            if (searchOptions.marke != totalCarList[i].zulassungsbescheinigung.marke._) {
+            if (searchOptions.marke.toLowerCase() != totalCarList[i].zulassungsbescheinigung.marke._.toLowerCase()) {
                 treffer = false
             }
         }

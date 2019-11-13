@@ -1,0 +1,57 @@
+@import 'shared/header.css';
+@import 'shared/footer.css';
+@import 'shared/filter.css';
+
+:root{
+    font-size:20px;
+}
+
+.body-column-left {
+    width: 30%;
+    border: 2px solid #333;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right:2.5%;
+    background-color: white;
+    max-height: 1000px;
+}
+
+.body-column-right {
+    width: 60%;
+    border: 2px solid #333;
+    padding: 5px;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    background-color: white;
+    min-height: 300px;
+}
+
+.body-container {
+    border: 3px solid #333;
+    display: flex;
+    margin: auto;
+    background-color: #aaa;
+}
+
+.autoContainer {
+    border: 1px solid #333;
+    padding: 5px;
+    display: block;
+    min-height: 250px;
+    overflow: auto;
+}
+
+.innerautoContainer {
+    display: inline;
+}
+
+.autoBild {
+    display: inline;
+}
+
+.autoInfos {
+    border: 1px solid #333;
+    float: right;
+    display: inline;
+}

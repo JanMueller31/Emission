@@ -1,9 +1,34 @@
+<div class="filter">
 <h2>Fahrzeugsuche</h2>
 <form action="/search" method="GET">
     <div>
-        <div>Marke:</div>
-        <input type = "text" placeholder = "z.B. BMW" name="autoMarke" value="<%= searchOptions.autoMarke %>"/>
 
+        <div class="input-group mb-3" >
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Marke</button>
+                  <div class="dropdown-menu text-center detailbox">
+                    <li class="dropdown-header">Wähle die Marke aus</li>
+                    <a class="dropdown-item" href="#" id="Audi" onclick="writeInInputField(this.id, Markenfeld)">Audi</a>
+                    <a class="dropdown-item" href="#" id="Porsche"  onclick="writeInInputField(this.id, Markenfeld)">Porsche</a>
+                    <a class="dropdown-item" href="#"  id="Bugatti"  onclick="writeInInputField(this.id, Markenfeld)">Bugatti</a>
+                    <a class="dropdown-item" href="#"  id="VW"  onclick="writeInInputField(this.id, Markenfeld)">VW</a>
+                    <a class="dropdown-item" href="#"  id="Mercedes"  onclick="writeInInputField(this.id, Markenfeld)">Mercedes</a>
+                    <a class="dropdown-item" href="#"  id="BMW"  onclick="writeInInputField(this.id, Markenfeld)">BMW</a>
+    
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" id="---beliebig---" onclick="writeInInputField(this.id, Markenfeld)">---beliebig---</a>
+                    </select>
+                   
+                  </div>
+                </div>
+                <input type="InputField" id="Markenfeld" class="form-control" onfocus="this.value=''" aria-label="Text input with dropdown button"
+                  placeholder="z.B. Audi, Porsche..." name="autoMarke" value="<%= searchOptions.autoMarke %>">
+              </div>
+
+
+
+        
         <div>Modell:</div>
         <input type="text" placeholder = "z.B. 4er" name="autoModell" value="<%= searchOptions.autoModell %>">
 
@@ -38,3 +63,5 @@
     </div>
     <button type="submit">Suche</button>
 </form>
+</div>
+
