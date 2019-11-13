@@ -7,13 +7,27 @@
 <% autos.forEach(car => { %>
 <div>
     <a href="/car/<%=car.$.id %>">
-        <img height="100" width="150" src="<%= car.imgSrc %>">      
-        <div>Marke:</div>
-        <div><%= car.zulassungsbescheinigung.marke._ %></div>
+        <div>
+            <img height="100" width="150" src="<%= car.icon %>">  
+            <div>    
+                <div>Marke:</div>
+                <div><%= car.zulassungsbescheinigung.marke._ %></div>
+                <div>Modell:</div>
+                <div><%= car.zulassungsbescheinigung.modell._ %></div>
+                <div>Kilometerstand:</div>
+                <div><%= car.fahrzeugdaten.kmstand.wert %> km</div>
+                <div>Preis:</div>
+                <div><%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></div>
+                <div>Baujahr:</div>
+                <div><%= car.zulassungsbescheinigung.baujahr._ %></div>
+                <div>Leistung:</div>
+                <div><%= car.fahrzeugdaten.leistung.wert %><%= car.fahrzeugdaten.leistung.einheit %></div>
+                <div>Kraftstoffart:</div>
+                <div><%= car.zulassungsbescheinigung.kraftstoffart._ %></div>
+                <div>Verbrauch:</div>
+                <div><%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %> <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></div>
+            </div>
+        </div>
     </a>
-        <div>Modell:</div>
-        <div><%= car.zulassungsbescheinigung.modell._ %></div>
-        <div>Preis:</div>
-        <div><%= car.fahrzeugdaten.preis.wert %></div>
 </div>
 <% }) %>

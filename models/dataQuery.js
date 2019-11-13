@@ -35,8 +35,46 @@ function find(searchOptions){
                 treffer = false
             }
         }
-
-
+        if (searchOptions.preis !== undefined) {
+            if (parseFloat(searchOptions.preis) < parseFloat(totalCarList[i].fahrzeugdaten.preis.wert)) {
+                treffer = false
+            }
+        }
+        if (searchOptions.baujahr !== undefined) {
+            if (parseFloat(searchOptions.baujahr) > parseFloat(totalCarList[i].zulassungsbescheinigung.baujahr._)) {
+                treffer = false
+            }
+        }
+        if (searchOptions.leistung !== undefined) {
+            if (parseFloat(searchOptions.leistung) > parseFloat(totalCarList[i].fahrzeugdaten.leistung.wert)) {
+                treffer = false
+            }
+        }
+        if (searchOptions.kraftstoffart !== undefined && searchOptions.kraftstoffart != ' '){
+            if (searchOptions.kraftstoffart !== totalCarList[i].zulassungsbescheinigung.kraftstoffart._) {
+                treffer = false
+            }
+        }
+        if (searchOptions.verbrauch !== undefined) {
+            if (parseFloat(searchOptions.verbrauch) < parseFloat(totalCarList[i].emissionsdaten.nefz.vebrauch.kombiniert.wert)) {
+                treffer = false
+            }
+        }
+        if (searchOptions.schadstoffklasse !== undefined && searchOptions.schadstoffklasse != ' '){
+            if (searchOptions.schadstoffklasse != totalCarList[i].zulassungsbescheinigung.schadstoffklasse._) {
+                treffer = false
+            }
+        }
+        if (searchOptions.emissionNEFZ !== undefined) {
+            if (parseFloat(searchOptions.emissionNEFZ) < parseFloat(totalCarList[i].emissionsdaten.nefz.co2_emission_kombi.wert)) {
+                treffer = false
+            }
+        }
+        if (searchOptions.emissionWLTP !== undefined) {
+            if (parseFloat(searchOptions.emissionWLTP) < parseFloat(totalCarList[i].emissionsdaten.wltp.co2_emission_kombi.wert)) {
+                treffer = false
+            }
+        }
 
 
         //falls Teffer -> push ins auszuliefernde Array
@@ -68,6 +106,6 @@ function find(searchOptions){
     }
 
     return carArrayResults
-}
+}//Ende find()
 
 module.exports = find

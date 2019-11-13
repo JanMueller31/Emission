@@ -22,5 +22,4 @@ for (i = 0; i < databaseAutohaus.auto.length; i++){
 }
 
 
-
 app.listen(3000, () => console.log('Server Started'))

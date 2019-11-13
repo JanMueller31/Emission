@@ -1,6 +1,6 @@
-<?xml version = "1.0" encoding="UTF-8"?>
+<?xml version = "1.0"?>
 <autohaus xmlns="https://www.google.com?" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="schema.xsd">
-    <auto id= "01" name= "Audi A1 Sportback 25 TFSI" baureihe= "A1 (GB) Sportback"> 
+    <auto id="01" name= "Audi A1 Sportback 25 TFSI" baureihe="A1 (GB) Sportback"> 
         <fahrzeugdaten>
             <preis>
                 <wert>19950</wert>
@@ -70,10 +70,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
-        <imgSrc>/Images/A1 Sportback 25 TFSI/Bild_vorne.jpg</imgSrc>
+        <icon>/Images/Audi A1 Sportback 25 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id= "02" name = "Audi A3 Sportback 30 TFSI" baureihe= "A3 (8V) Sportback">
+    <auto id="02" name = "Audi A3 Sportback 30 TFSI" baureihe="A3 (8V) Sportback">
         <fahrzeugdaten>
             <preis>
                 <wert>25800</wert>
@@ -143,9 +143,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A3 Sportback 30 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id= "03" name = "Audi S3 Limousine" baureihe= "S3 (8V) Limousine">
+    <auto id="03" name = "Audi S3 Limousine" baureihe="S3 (8V) Limousine">
         <fahrzeugdaten>
             <preis>
                 <wert>46600</wert>
@@ -215,9 +216,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi S3 Limousine/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id= "04" name = "Audi RS3 Sportback" baureihe= "RS3 (8V) Sportback">
+    <auto id="04" name = "Audi RS3 Sportback" baureihe="RS3 (8V) Sportback">
         <fahrzeugdaten>
             <preis>
                 <wert>55900</wert>
@@ -287,6 +289,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi RS3 Sportback/Bild_seite.jpg</icon>
     </auto>
 
     <auto id = "05" name = "Audi A4 35 TFSI" baureihe = "A4 (B9) Limousine">
@@ -359,6 +362,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A4 35 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "06" name = "Audi RS4 Avant" baureihe = "RS4 (B9) Avant">
@@ -431,6 +435,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi RS4 Avant/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "07" name = "Audi A5 Sportback 40 TFSI" baureihe = "A5 (F5) Sportback">
@@ -503,6 +508,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A5 Sportback 40 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "08" name = "Audi A6 45 TFSI" baureihe = "A6 (C8) Limousine">
@@ -575,9 +581,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A6 45 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id = "09" name = "Audi S6 Avant 45 TFSI " baureihe = "S6 (C8) Avant">
+    <auto id = "09" name = "Audi S6 Avant 45 TFSI" baureihe = "S6 (C8) Avant">
         <fahrzeugdaten>
             <preis>
                 <wert>66300</wert>
@@ -647,7 +654,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
-        <imgSrc>/Images/S6 Avant 45 TFSI/Bild_seite.jpg</imgSrc>
+        <icon>/Images/Audi S6 Avant 45 TFSI/Bild_seite.jpg</icon>
     </auto>
 
     <auto id = "10" name = "Audi A7 Sportback 45 TFSI" baureihe = "A7 (4K) Sportback">
@@ -720,6 +727,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A7 Sportback 45 TFSI/Bild_seite.jpg</icon>
     </auto>
 
     <auto id= "11" name = "Audi A8 L 55 TFSI" baureihe="A8 (D5)">
@@ -792,6 +800,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi A8 L 55 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id ="12" name = "Audi Q2 30 TFSI" baureihe = "Q2 (GA)">
@@ -864,6 +873,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi Q2 30 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "13" name = "Audi SQ2 TFSI" baureihe = "SQ2">
@@ -936,6 +946,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi SQ2 TFSI/Bild_vorne.jpg</icon>
     </auto>
     
     <auto id = "14" name = "Audi Q3 Sportback 35 TFSI" baureihe = "Q3 (F3) Sportback">
@@ -1008,6 +1019,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi Q3 Sportback 35 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "15" name = "Audi Q5 45 TFSI" baureihe = "Q5 (FY)">
@@ -1080,6 +1092,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi Q5 45 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "16" name = "Audi Q7 55 TFSI" baureihe = "Q7 (4M)">
@@ -1152,6 +1165,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi Q7 55 TFSI/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "17" name = "Audi TT Coupé 40 TFSI" baureihe = "TT (8S) Coupé">
@@ -1224,6 +1238,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi TT Coupé 40 TFSI/Bild_vorne.jpg</icon>
     </auto>
     
     <auto id = "18" name = "Audi R8 Spyder 5.2 FSI V10" baureihe = "R8 (4S) Spyder">
@@ -1296,6 +1311,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi R8 Spyder 5.2 FSI V10/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "19" name = "Audi R8 Coupé 5.2 FSI V10" baureihe = "R8 (4S) Coupé">
@@ -1368,6 +1384,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi R8 Coupé 5.2 FSI V10/Bild_vorne.jpg</icon>
     </auto>
 
     <auto id = "20" name = "Audi Q8 55 TFSI" baureihe = "R8 (4M)">
@@ -1440,6 +1457,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Audi Q8 55 TFSI/Bild_seite.jpg</icon>
     </auto>
 
     <auto id = "21" name = "VW Golf 1.0 TSI" baureihe = "Golf (VII)">
@@ -1512,9 +1530,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/VW Golf 1.0 TSI/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id = "22" name = "VW Passat Variant 1.5 TSI" baureihe = "Passat (B8) Variant">
+    <auto id = "22" name = "VW Passat Variant 1.0 TSI" baureihe = "Passat (B8) Variant">
           <fahrzeugdaten>
             <preis>
                 <wert>40045</wert>
@@ -1584,9 +1603,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/VW Passat Variant 1.0 TSI/Bild_vorne.jpg</icon>
     </auto>
 
-    <auto id = "23" name = "VW T-Roc 1.5 TSI" baureihe = "T-Roc">
+    <auto id = "23" name = "VW T-Roc 1.0 TSI" baureihe = "T-Roc">
           <fahrzeugdaten>
             <preis>
                 <wert>25975</wert>
@@ -1656,6 +1676,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/VW T-Roc 1.0 TSI/Bild_seite.jpg</icon>
     </auto>
 
     <auto id = "24" name = "Mercedes C 160 T-Modell" baureihe = "C-Klasse (205) T-Modell">
@@ -1728,6 +1749,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Mercedes C160 T-Modell/Bild_vorne2.jpg</icon>
     </auto>
 
     <auto id = "25" name = "Mercedes E 200 Coupé" baureihe = "E-Klasse (238) Coupé">
@@ -1800,6 +1822,7 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Mercedes E200 Coupé/Bild_vorne2.jpg</icon>
     </auto>
 
     <auto id = "26" name = "Mercedes S 450 Coupé" baureihe = "S-Klasse (217) Coupé">
@@ -1872,5 +1895,298 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
+        <icon>/Images/Mercedes S450 Coupé/Bild_vorne2.jpg</icon>
+    </auto>
+
+    <auto id = "27" name = "Mercedes S 65 AMG Cabriolet" baureihe = "S-Klasse (217) AMG Cabriolet">
+          <fahrzeugdaten>
+            <preis>
+                <wert>158885</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>1112</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>463</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">1313</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">GGO</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0100</schluesselnummer1> 
+            <marke bezeichnung="d1">Mercedes</marke>
+            <typ bezeichnung="d2">SPEEDSHIFT PLUS 7G-TRONIC</typ> 
+            <modell bezeichnung="d2">S 65 AMG</modell>
+            <hersteller bezeichnung="2">Mercedes</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Cabriolet</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP(WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP(WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>19.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>10.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>14.2</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>325</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>20.0</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>18.3</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>16.9</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>345</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+        <icon>/Images/Mercedes S 65 AMG Cabriolet SPEEDSHIFT + 7G-TRONIC/Bild_schraeg.jpg</icon>
+    </auto>
+
+    <auto id = "28" name = "Mercedes Citan Kastenwagen kompakt" baureihe = "Citan (415) Kastenwagen">
+          <fahrzeugdaten>
+            <preis>
+                <wert>14268</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>112000</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>55</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">1313</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">CUK</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">Mercedes</marke>
+            <typ bezeichnung="d2">WORKER</typ> 
+            <modell bezeichnung="d2">Citan Kastenwagen kompakt 108 CDI</modell>
+            <hersteller bezeichnung="2">Mercedes</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Kleintransporter</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">LKW</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">LKW</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Diesel</kraftstoffart> 
+            <baujahr bezeichnung="I">2013</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>5.2</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>4.2</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>4.6</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>119</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>5.1</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>4.9</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>4.0</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>127</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+        <icon>/Images/Mercedes Citan Kastenwagen kompakt 108 CDI Worker/Bild_vorne.jpg</icon>
+    </auto>
+
+    <auto id = "29" name = "BMW M760Li xDrive" baureihe = "7er-Reihe (G11/G12) M Performance">
+          <fahrzeugdaten>
+            <preis>
+                <wert>174000</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>45000</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>430</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">0005</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">CVC</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">BMW</marke>
+            <typ bezeichnung="d2">xDrive Steptronic</typ> 
+            <modell bezeichnung="d2">M760Li</modell>
+            <hersteller bezeichnung="2">BMW</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Stufenheck</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6d-TEMP-EVAP-ISC (WLTP)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6d-TEMP-EVAP-ISC (WLTP)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2016</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>18.3</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>8.9</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>12.4</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>282</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>18.9</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>17.6</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>15.7</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>309</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+        <icon>/Images/BMW M760Li xDrive steptronic/Bild_vorne.jpg</icon>
+    </auto>
+
+    <auto id = "30" name = "BMW i8 Coupé" baureihe = "i8-Reihe">
+          <fahrzeugdaten>
+            <preis>
+                <wert>134000</wert>
+                <einheit>EURO</einheit>
+            </preis>
+            <kmstand>
+                <wert>5340</wert>
+                <einheit>km</einheit>
+            </kmstand>
+            <leistung>
+                <wert>266</wert>
+                <einheit>kw</einheit>
+            </leistung>
+        </fahrzeugdaten>
+        <zulassungsbescheinigung>
+            <herstellerschluesselnummer bezeichnung="b21">0005</herstellerschluesselnummer>
+            <typschluesselnummer bezeichnung="b22">BUA</typschluesselnummer> 
+            <egklassifikation bezeichnung="J">01</egklassifikation> 
+            <schluesselnummer1 bezeichnung="4">0200</schluesselnummer1> 
+            <marke bezeichnung="d1">BMW</marke>
+            <typ bezeichnung="d2">i8</typ> 
+            <modell bezeichnung="d2">i8</modell>
+            <hersteller bezeichnung="2">BMW</hersteller>  
+            <fahrzeugklasse bezeichnung="5">FZ. Z. PERS. BEF. B. 8. SPL., Coupe</fahrzeugklasse> 
+            <schadstoffklasse bezeichnung="v9">Euro 6b (NEFZ)</schadstoffklasse>  
+            <nationaleemissionsklasse bezeichnung="14">Euro 6b (NEFZ)</nationaleemissionsklasse> 
+            <kraftstoffart bezeichnung="p3">Elektro/Super Plus</kraftstoffart> 
+            <baujahr bezeichnung="I">2019</baujahr>
+        </zulassungsbescheinigung>
+        <emissionsdaten>
+            <nefz>
+                <vebrauch>
+                    <innerorts>
+                        <wert>-</wert>
+                        <einheit>l/100 km</einheit>
+                    </innerorts>
+                    <außerorts>
+                        <wert>-</wert>
+                        <einheit>l/100 km</einheit>
+                    </außerorts>
+                    <kombiniert>
+                        <wert>2.1</wert>
+                        <einheit>l/100 km</einheit>
+                   </kombiniert>
+                </vebrauch>
+                <co2_emission_kombi>
+                        <wert>42</wert>
+                        <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </nefz>
+            <wltp>
+                <sehr_schnell>
+                    <wert>-</wert>
+                    <einheit>l/100 km</einheit>
+                </sehr_schnell>
+                <schnell>
+                    <wert>-</wert>
+                    <einheit>l/100 km </einheit>
+                </schnell>
+                <langsam>
+                    <wert>-</wert>
+                    <einheit>l/100 km</einheit>
+                </langsam>
+                <co2_emission_kombi>
+                    <wert>-</wert>
+                    <einheit>g/km</einheit>
+                </co2_emission_kombi>
+            </wltp>
+        </emissionsdaten>
+        <icon>/Images/BMW i8 Coupé/Bild_vorne.jpg</icon>
     </auto>
 </autohaus>

@@ -26,17 +26,26 @@ router.get('/search', (req,res) => {
     if (req.query.autoPreis != null && req.query.autoPreis !== '') {
         searchOptions.preis = req.query.autoPreis
     }
-    if (req.query.autoFahrzeugklasse != null && req.query.autoFahrzeugklasse !== '') {
-        searchOptions.fahrzeugklasse = req.query.autoFahrzeugklasse
+    if (req.query.autoBaujahr != null && req.query.autoBaujahr !== '') {
+        searchOptions.baujahr = req.query.autoBaujahr
+    }
+    if (req.query.autoLeistung != null && req.query.autoLeistung !== '') {
+        searchOptions.leistung = req.query.autoLeistung
     }
     if (req.query.autoKraftstoffart != null && req.query.autoKraftstoffart !== '') {
         searchOptions.kraftstoffart = req.query.autoKraftstoffart
     }
+    if (req.query.autoKraftstoffverbrauch != null && req.query.autoKraftstoffverbrauch !== '') {
+        searchOptions.verbrauch = req.query.autoKraftstoffverbrauch
+    }
     if (req.query.autoSchadstoffklasse != null && req.query.autoSchadstoffklasse !== '') {
         searchOptions.schadstoffklasse = req.query.autoSchadstoffklasse
     }
-    if (req.query.autoEmission != null && req.query.autoEmission !== '') {
-        searchOptions.emission = req.query.autoEmission
+    if (req.query.autoEmissionWLTP != null && req.query.autoEmissionWLTP !== '') {
+        searchOptions.emissionWLTP = req.query.autoEmissionWLTP
+    }
+    if (req.query.autoEmissionNEFZ != null && req.query.autoEmissionNEFZ !== '') {
+        searchOptions.emissionNEFZ = req.query.autoEmissionNEFZ
     }
     
     cars = find(searchOptions) 

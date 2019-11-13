@@ -13,17 +13,28 @@
         <div>Preis bis:</div>
         <input type="text" placeholder = "z.b. 10.000" name="autoPreis" value="<%= searchOptions.autoPreis %>">
 
-        <div>Fahrzeugklasse:</div>
-        <input type="text" placeholder = "Fahrzeugklasse" name="autoFahrzeugklasse" value="<%= searchOptions.autoFahrzeugklasse %>">
+        <div>Baujahr ab:</div>
+        <input type="text" placeholder = "z.b. 10.000" name="autoBaujahr" value="<%= searchOptions.autoBaujahr %>">
+
+        <div>Leistung ab:</div>
+        <input type="text" placeholder = "z.b. 10.000" name="autoLeistung" value="<%= searchOptions.autoLeistung %>">
 
         <div>Kraftstoffart:</div>
         <input type="text" placeholder = "z.b. Benzin" name="autoKraftstoffart" value="<%= searchOptions.autoKraftstoffart %>">
 
+        <div>Kraftstoffverbrauch (kombiniert) nach NEFZ:</div>
+        <input type="text" placeholder = "z.b. Benzin" name="autoKraftstoffverbrauch" value="<%= searchOptions.autoKraftstoffverbrauch %>">
+
+        
+        
         <div>Schadstoffklasse:</div>
         <input type="text" placeholder = "z.b. Euro6 Diesel" name="autoSchadstoffklasse" value="<%= searchOptions.autoSchadstoffklasse %>">
 
-        <div>Emission bis: (in g/km)</div>
-        <input type="text" placeholder = "z.b. 100" name="autoEmission" value="<%= searchOptions.autoEmission %>">
+        <div>Emission (kombiniert nach WLTP in g/km) bis:</div>
+        <input type="text" placeholder = "z.b. 100" name="autoEmissionWLTP" value="<%= searchOptions.autoEmissionWLTP %>">
+        
+        <div>Emission (kombiniert nach NEFZ in g/km) bis:</div>
+        <input type="text" placeholder = "z.b. 100" name="autoEmissionNEFZ" value="<%= searchOptions.autoEmissionNEFZ %>">   
     </div>
     <button type="submit">Suche</button>
 </form>
