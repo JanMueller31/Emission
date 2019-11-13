@@ -10,7 +10,7 @@
 }
 
 .filter{
-    background-color: red;  
+    background-color: black;  
     border: 3px solid #333;
     padding-left: 15px;
     padding-bottom: 15px;
@@ -105,9 +105,8 @@
   .slider {
     -webkit-appearance: none;
     width: 100%;
-    margin-top: 11px;
     margin-left: 8px;
-    height: 1px;
+    height: 5px;
     background: #d3d3d3;
     outline: none;
     opacity: .9;
@@ -123,8 +122,8 @@
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     background: rgb(436, 221, 8);
     cursor: pointer;
     border-radius: 50%;
@@ -132,7 +131,7 @@
   
   
 .range{
-    margin-top: 6px;
+    margin-top: 10px;
     margin-left: 5px;
 }
 
@@ -146,4 +145,9 @@
 
 .searchbtn{
     margin-left: 250px;
+}
+
+
+.textfield{
+    margin-right: 10px;
 }
