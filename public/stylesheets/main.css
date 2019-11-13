@@ -2,17 +2,16 @@
 @import 'shared/footer.css';
 @import 'shared/filter.css';
 
-:root{
+:root {
     font-size:20px;
+
 }
 
 .body-column-left {
     width: 30%;
-    border: 2px solid #333;
     margin-left: 5%;
     margin-top: 2%;
     margin-right:2.5%;
-    background-color: white;
     max-height: 1000px;
 }
 
@@ -31,7 +30,9 @@
     border: 3px solid #333;
     display: flex;
     margin: auto;
-    background-color: #aaa;
+    background-image: url("../Images/0_Sonstige/background_img.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
 }
 
 .autoContainer {
@@ -47,11 +48,11 @@
 }
 
 .autoBild {
-    display: inline;
+    float: left;   
+    width: 15%;
 }
 
 .autoInfos {
     border: 1px solid #333;
-    float: right;
-    display: inline;
+    width: 40%;
 }
