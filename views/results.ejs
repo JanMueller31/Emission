@@ -9,29 +9,24 @@
                 <div>Keine Ergebnisse zu dieser Suche gefunden</div>
             <% } %>
 
-            <div class="">
+            <div class="trefferBox">
                 <% autos.forEach(car => { %>
-                <div class="autoContainer">
-                    <div class="innerautoContainer">
-                        <a href="/car/<%=car.$.id %>">
-                            <div class="">
-                                <div class="autoBild">
-                                    <img height="100" width="150" src="<%= car.icon %>">
+                    <div class="autoContainer">
+                        <a class="autoSchrift" href="/car/<%=car.$.id %>">
+                            <div class="innerautoContainer">
+                                <div class="autoBildContainer">
+                                    <img class="autoBild" src="<%= car.icon %>">
                                 </div>
                                 <div class="autoInfos">
-                                        <div class="">
-                                                <div class="">
-                                                    <div class="">Marke: <%= car.zulassungsbescheinigung.marke._ %></div>
-                                                    <div class="">Modell: <%= car.zulassungsbescheinigung.modell._ %></div>
-                                                </div>
-                                            <div>Kilometerstand: <%= car.fahrzeugdaten.kmstand.wert %> km</div>
-                                            <div>Preis: <%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></div>
-                                            <div>Baujahr: <%= car.zulassungsbescheinigung.baujahr._ %></div>
-                                            <div>Leistung: <%= car.fahrzeugdaten.leistung.wert %><%= car.fahrzeugdaten.leistung.einheit %></div>
-                                            <div>Kraftstoffart: <%= car.zulassungsbescheinigung.kraftstoffart._ %></div>
-                                            <div>Verbrauch: <%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %> <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></div>
-                                        </div> 
-                                </div>
+                                    <div class="autoName"><%= car.$.name %></div>
+                                    <div class="autoInfo">
+                                        <div>Kilometerstand: <%= car.fahrzeugdaten.kmstand.wert %> km</div>
+                                        <div>Preis: <%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></div>
+                                        <div>Baujahr: <%= car.zulassungsbescheinigung.baujahr._ %></div>
+                                        <div>Leistung: <%= car.fahrzeugdaten.leistung.wert %><%= car.fahrzeugdaten.leistung.einheit %></div>
+                                        <div>Kraftstoffart: <%= car.zulassungsbescheinigung.kraftstoffart._ %></div>
+                                        <div>Verbrauch: <%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %> <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></div>
+                                    </div>
                                 </div>
                             </div>
                         </a>

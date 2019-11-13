@@ -1,7 +1,10 @@
-.img-fluid {
+.logo {
     width: 300px;
+    height: 300px;
 }
 
 .header-suche {
-    margin-top:2.5%
+    margin-top:2.5%;
+    margin-left: 5%;
+
 }
