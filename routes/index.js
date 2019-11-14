@@ -56,10 +56,12 @@ router.get('/search', (req,res) => {
 })
 
 router.get('/car/:id', (req,res)=>{
-    auto = find(req.params.id)
-    res.render('car', {
-        car: auto[0],
-        searchOptions: req.query
+    let searchOptions = {}
+    searchOptions.id = req.params.id
+    auto = find(searchOptions)
+    res.render('auto', {
+        car: auto,
+        searchOptions: ""
     })
 })
 

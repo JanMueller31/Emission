@@ -100,8 +100,8 @@ function find(searchOptions){
 
     //needed for individual page
     for (i = 0; i < totalCarList.length;i ++){
-        if (searchOptions == totalCarList[i].$.id) {
-            carArrayResults.push(totalCarList[i]);
+        if (searchOptions.id == totalCarList[i].$.id) {
+            carArrayResults = totalCarList[i];
         }
     }
 

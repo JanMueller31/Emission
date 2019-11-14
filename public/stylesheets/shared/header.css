@@ -1,10 +1,15 @@
-.logo {
-    width: 300px;
-    height: 300px;
+.header-container {
+    display:flex;
+    align-items: center;
+    border-bottom: 3px solid rgb(110, 110, 110);
 }
 
-.header-suche {
-    margin-top:2.5%;
-    margin-left: 5%;
+.mydirtycarLogo {
+    width: 300px;
+    height: 100px;
+    margin-left: 30%;
+}
 
+.header-suche { 
+    margin-left: 50%;
 }

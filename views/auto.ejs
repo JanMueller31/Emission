@@ -1,0 +1,29 @@
+<div class="detailsContainer">
+    <h2 class="autoTitel"><%= car.$.name %></h2>
+    <br>
+    <img class="detailsImg" src="<%= car.icon %>">
+    <div class="tableContainer">
+        <table>
+            <tr>
+                <th>Fahrzeugdaten</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Preis:</td>
+                <td><%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></td>
+            </tr>
+            <tr>
+                <td>Kilometerstand:</td>
+                <td><%= car.fahrzeugdaten.kmstand.wert %> <%= car.fahrzeugdaten.preis.einheit %></td>
+            </tr>   
+            <tr>
+                <td>Leistung:</td>
+                <td><%= car.fahrzeugdaten.leistung.wert %> <%= car.fahrzeugdaten.leistung.einheit %></td>
+            </tr>     
+            <tr>
+                <td>Baujahr:</td>
+                <td><%= car.zulassungsbescheinigung.baujahr._ %></td>
+            </tr>   
+        </table>
+    </div>
+</div>
