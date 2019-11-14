@@ -4,11 +4,11 @@ const xmlParser = xml2js.Parser({
     explicitArray: false
 })
 
-function populateDatabase(){
-    var databaseData = fs.readFileSync(__dirname + '/datenbank.xml','utf8', (err,data)=>{
+function populateDatabase() {
+    var databaseData = fs.readFileSync(__dirname + '/datenbank.xml', 'utf8', (err, data) => {
         if (err) console.log(err);
     })
-    xmlParser.parseString(databaseData, (err,result)=>{
+    xmlParser.parseString(databaseData, (err, result) => {
         if (err) console.log(err)
         databaseData = result
     })

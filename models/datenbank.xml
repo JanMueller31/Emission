@@ -1,5 +1,5 @@
 <?xml version = "1.0"?>
-<autohaus xmlns="https://www.google.com?" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="schema.xsd">
+<autohaus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="schema_datenbank.xsd">
     <auto id="01" name= "Audi A1 Sportback 25 TFSI" baureihe="A1 (GB) Sportback"> 
         <fahrzeugdaten>
             <preis>

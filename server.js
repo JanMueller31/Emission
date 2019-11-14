@@ -14,12 +14,5 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
 app.use('/', indexRouter)
 
-const databaseAutohaus = require('./models/database').autohaus
-var totalCarList = []
-
-for (i = 0; i < databaseAutohaus.auto.length; i++){
-    totalCarList.push(databaseAutohaus.auto[i])
-}
-
 
 app.listen(3000, () => console.log('Server Started'))

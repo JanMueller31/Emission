@@ -2,29 +2,29 @@ const databaseAutohaus = require('./database').autohaus
 
 var totalCarList = []
 
-for (i = 0; i < databaseAutohaus.auto.length; i++){
+for (i = 0; i < databaseAutohaus.auto.length; i++) {
     totalCarList.push(databaseAutohaus.auto[i])
 }
 
-function find(searchOptions){
+function find(searchOptions) {
     let carArrayResults = []
     //falls keine searchOptions angegeben, gib alle Fahrzeuge aus
-    if(Object.keys(searchOptions).length == 0){
+    if (Object.keys(searchOptions).length == 0) {
         carArrayResults = totalCarList
     }
 
     //Iteration über alle Elemente
-    for (i = 0; i < totalCarList.length;i++) {
+    for (i = 0; i < totalCarList.length; i++) {
         let treffer = true
 
         //check ob Marke angegeben und setzt treffer auf false falls nicht übereinstimmend
-        if (searchOptions.marke !== undefined && searchOptions.marke != ' '){
+        if (searchOptions.marke !== undefined && searchOptions.marke != ' ') {
             if (searchOptions.marke.toLowerCase() != totalCarList[i].zulassungsbescheinigung.marke._.toLowerCase()) {
                 treffer = false
             }
         }
         //check ob Modell angegeben und setzt treffer auf false falls nicht übereinstimmend
-        if (searchOptions.modell !== undefined && searchOptions.modell != ' '){
+        if (searchOptions.modell !== undefined && searchOptions.modell != ' ') {
             if (searchOptions.modell != totalCarList[i].zulassungsbescheinigung.modell._) {
                 treffer = false
             }
@@ -50,7 +50,7 @@ function find(searchOptions){
                 treffer = false
             }
         }
-        if (searchOptions.kraftstoffart !== undefined && searchOptions.kraftstoffart != ' '){
+        if (searchOptions.kraftstoffart !== undefined && searchOptions.kraftstoffart != ' ') {
             if (searchOptions.kraftstoffart !== totalCarList[i].zulassungsbescheinigung.kraftstoffart._) {
                 treffer = false
             }
@@ -60,7 +60,7 @@ function find(searchOptions){
                 treffer = false
             }
         }
-        if (searchOptions.schadstoffklasse !== undefined && searchOptions.schadstoffklasse != ' '){
+        if (searchOptions.schadstoffklasse !== undefined && searchOptions.schadstoffklasse != ' ') {
             if (searchOptions.schadstoffklasse != totalCarList[i].zulassungsbescheinigung.schadstoffklasse._) {
                 treffer = false
             }
@@ -78,20 +78,20 @@ function find(searchOptions){
 
 
         //falls Teffer -> push ins auszuliefernde Array
-        if(treffer) {
+        if (treffer) {
             if (carArrayResults == "") {
                 carArrayResults.push(totalCarList[i]);
             } else {
                 let alreadyInCarArrayResults = false
-                for (j = 0;j < carArrayResults.length;j++){
-                    if (totalCarList[i] === carArrayResults[j]){
+                for (j = 0; j < carArrayResults.length; j++) {
+                    if (totalCarList[i] === carArrayResults[j]) {
                         alreadyInCarArrayResults = true;
                         break;
                     }
                 }
                 if (!alreadyInCarArrayResults) {
                     carArrayResults.push(totalCarList[i]);
-                }            
+                }
             }
         } //Ende if(treffer)
     } //Ende for-Schleife             
@@ -99,9 +99,10 @@ function find(searchOptions){
 
 
     //needed for individual page
-    for (i = 0; i < totalCarList.length;i ++){
+    for (i = 0; i < totalCarList.length; i++) {
         if (searchOptions.id == totalCarList[i].$.id) {
             carArrayResults = totalCarList[i];
+            break;
         }
     }
 

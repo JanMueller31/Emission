@@ -1,42 +1,48 @@
 <div class="body-container">
-    
-        <div class="body-column-left">
-            <%- include('./partials/filter.ejs') %>
-        </div>
 
-        <div class="body-column-right">
+    <div class="body-column-left">
+        <%- include('./partials/filter.ejs') %>
+    </div>
+
+    <div class="body-column-right">
 
 
-            <div class="trefferBox">
-                    <% if (Object.keys(autos).length == 0) { %>
-                        <div class="keineErg">Here aren't the cars you're looking for</div>
-                        <img  class="autoBild" src="/public/Images/0_Sonstige/noCars.jpg">
-                    <% } %>
-
-                <% autos.forEach(car => { %>
-                    <div class="autoContainer">
-                        <a class="autoSchrift" href="/car/<%=car.$.id %>">
-                            <div class="innerautoContainer">
-                                <div class="autoBildContainer">
-                                    <img class="autoBild" src="<%= car.icon %>">
-                                </div>
-                                <div class="autoInfos">
-                                    <div class="autoName"><%= car.$.name %></div>
-                                    <div class="autoInfo">
-                                        <div>Kilometerstand: <%= car.fahrzeugdaten.kmstand.wert %> km</div>
-                                        <div>Preis: <%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></div>
-                                        <div>Baujahr: <%= car.zulassungsbescheinigung.baujahr._ %></div>
-                                        <div>Leistung: <%= car.fahrzeugdaten.leistung.wert %><%= car.fahrzeugdaten.leistung.einheit %></div>
-                                        <div>Kraftstoffart: <%= car.zulassungsbescheinigung.kraftstoffart._ %></div>
-                                        <div>Verbrauch: <%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %> <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                <% }) %>
+        <div class="trefferBox">
+            <% if (Object.keys(autos).length == 0) { %>
+            <div class="keineErg">Here aren't the cars you're looking for</div>
+            <div>
+                <img class="keinErgBild" height="480" width="620" src="/Images/0_Sonstige/noCars.jpg">
             </div>
-        </div>
+            <% } %>
 
-        
+            <% autos.forEach(car => { %>
+            <div class="autoContainer">
+                <a class="autoSchrift" href="/autoDetails/<%=car.$.id %>">
+                    <div class="innerautoContainer">
+                        <div class="autoBildContainer">
+                            <img class="autoBild" src="<%= car.icon %>">
+                        </div>
+                        <div class="autoInfos">
+                            <div class="autoName"><%= car.$.name %></div>
+                            <div class="autoInfo">
+                                <div>Kilometerstand: <%= car.fahrzeugdaten.kmstand.wert %> km</div>
+                                <div>Preis: <%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %>
+                                </div>
+                                <div>Baujahr: <%= car.zulassungsbescheinigung.baujahr._ %></div>
+                                <div>Leistung:
+                                    <%= car.fahrzeugdaten.leistung.wert %><%= car.fahrzeugdaten.leistung.einheit %>
+                                </div>
+                                <div>Kraftstoffart: <%= car.zulassungsbescheinigung.kraftstoffart._ %></div>
+                                <div>Verbrauch: <%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %>
+                                    <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+
+
 </div>

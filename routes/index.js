@@ -2,20 +2,19 @@ const express = require('express')
 const router = express.Router()
 const find = require('../models/dataQuery')
 
-router.get('/', (req,res) => {
-    res.render('index',{
-        autoModell: null,
+router.get('/', (req, res) => {
+    res.render('index', {
         searchOptions: ""
     })
 })
 
-router.get('/search', (req,res) => {
+router.get('/search', (req, res) => {
     let searchOptions = {}
     if (req.query.suche != null && req.query.suche !== '') {
         searchOptions.suche = req.query.suche
-      }
+    }
     if (req.query.autoMarke != null && req.query.autoMarke !== '') {
-      searchOptions.marke = req.query.autoMarke
+        searchOptions.marke = req.query.autoMarke
     }
     if (req.query.autoModell != null && req.query.autoModell !== '') {
         searchOptions.modell = req.query.autoModell
@@ -47,20 +46,20 @@ router.get('/search', (req,res) => {
     if (req.query.autoEmissionNEFZ != null && req.query.autoEmissionNEFZ !== '') {
         searchOptions.emissionNEFZ = req.query.autoEmissionNEFZ
     }
-    
-    cars = find(searchOptions) 
-    res.render('results',{
+
+    cars = find(searchOptions)
+    res.render('results', {
         autos: cars,
         searchOptions: req.query
     })
 })
 
-router.get('/car/:id', (req,res)=>{
+router.get('/autoDetails/:id', (req, res) => {
     let searchOptions = {}
     searchOptions.id = req.params.id
-    auto = find(searchOptions)
+    car = find(searchOptions)
     res.render('auto', {
-        car: auto,
+        car: car,
         searchOptions: ""
     })
 })
