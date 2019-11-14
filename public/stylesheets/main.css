@@ -30,8 +30,8 @@
     background:linear-gradient(to bottom, hsl(200, 50%, 25%), hsl(200,50%,45%));
 }
 .trefferBox {
-    border: 3px solid rgb(150,150,150);
-    height:1000px;
+    margin-bottom: 3%;
+    height:800px;
     overflow:auto;
     background: none;
 }
@@ -113,14 +113,23 @@
 }
 
 .indexContainer {
-    background-image: url("/public/Images/0_Sonstige/background_img.jpg");
+    background-image:url("https://www.riller-schnauck.de/themes/Frontend/BMW/frontend/_public/src/img/modelle/bmw-4er.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left bottom;
+    height:1000px;
+    margin-top:0%;
+    padding-top:-10px;
 }
 
 .indexFilter {
+    background:none;
+    height:850px;
     width:750px;
-    padding-top:5%;
+    padding-top:3%;
     margin-left: 10%;
     margin-right:10%;
+    margin-bottom: 3%;
 }
 
 .filter-items {
