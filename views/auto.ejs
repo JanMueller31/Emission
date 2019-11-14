@@ -3,27 +3,80 @@
     <br>
     <img class="detailsImg" src="<%= car.icon %>">
     <div class="tableContainer">
-        <table>
+        <table class="table table-striped">
             <tr>
-                <th>Fahrzeugdaten</th>
-                <th></th>
+                <th class="tableHeader" scope="row">Fahrzeugdaten</th>
+                <td></td>
             </tr>
             <tr>
-                <td>Preis:</td>
+                <th scope="row">Preis:</th>
                 <td><%= car.fahrzeugdaten.preis.wert %> <%= car.fahrzeugdaten.preis.einheit %></td>
             </tr>
             <tr>
-                <td>Kilometerstand:</td>
+                <th scope="row">Kilometerstand:</th>
                 <td><%= car.fahrzeugdaten.kmstand.wert %> <%= car.fahrzeugdaten.preis.einheit %></td>
             </tr>   
             <tr>
-                <td>Leistung:</td>
+                <th scope="row">Leistung:</th>
                 <td><%= car.fahrzeugdaten.leistung.wert %> <%= car.fahrzeugdaten.leistung.einheit %></td>
             </tr>     
             <tr>
-                <td>Baujahr:</td>
+                <th scope="row">Baujahr:</th>
                 <td><%= car.zulassungsbescheinigung.baujahr._ %></td>
+            </tr> 
+            <tr>
+                <th scope="row">Schadstoffklasse:</th>
+                <td><%= car.zulassungsbescheinigung.schadstoffklasse._ %></td>
+            </tr> 
+            <tr>
+                <th scope="row">Kraftstoffart:</th>
+                <td><%= car.zulassungsbescheinigung.kraftstoffart._ %></td>
+            </tr>
+            <tr>
+                <th scope="row">Verbrauchs- und Emissionsdaten nach NEFZ:</th>
+                <td> </td>
+            </tr>
+            <tr>
+                <th scope="row">Kraftstoffverbrauch innerorts:</th>
+                <td><%= car.emissionsdaten.nefz.vebrauch.innerorts.wert %> <%= car.emissionsdaten.nefz.vebrauch.innerorts.einheit %></td>
+            </tr> 
+            <tr>
+                <th scope="row">Kraftstoffverbrauch außerorts:</th>
+                <td><%= car.emissionsdaten.nefz.vebrauch.außerorts.wert %> <%= car.emissionsdaten.nefz.vebrauch.außerorts.einheit %></td>
+            </tr> 
+            <tr>
+                <th scope="row">Kraftstoffverbrauch kombiniert:</th>
+                <td><%= car.emissionsdaten.nefz.vebrauch.kombiniert.wert %> <%= car.emissionsdaten.nefz.vebrauch.kombiniert.einheit %></td>
+            </tr>  
+            <tr >
+                <th scope="row">CO2-Emission-Kombi:</th>
+                <td><%= car.emissionsdaten.nefz.co2_emission_kombi.wert %> <%= car.emissionsdaten.nefz.co2_emission_kombi.einheit %></td>
             </tr>   
+            <tr>
+                <th scope="row">Verbrauchs- und Emissionsdaten nach WLTP:</th>
+                <td> </td>
+            </tr>
+            <tr>
+                <th scope="row">sehr schnell:</th>
+                <td><%= car.emissionsdaten.wltp.sehr_schnell.wert %> <%= car.emissionsdaten.wltp.sehr_schnell.einheit %></td>
+            </tr>
+            <tr>
+                <th scope="row">schnell:</th>
+                <td><%= car.emissionsdaten.wltp.schnell.wert %> <%= car.emissionsdaten.wltp.schnell.einheit %></td>
+            </tr>
+            <tr>
+                <th scope="row">langsam:</th>
+                <td><%= car.emissionsdaten.wltp.langsam.wert %> <%= car.emissionsdaten.wltp.langsam.einheit %></td>
+            </tr>
+            <tr>
+                <th scope="row">CO2-Emission-Kombi:</th>
+                <td><%= car.emissionsdaten.wltp.co2_emission_kombi.wert %> <%= car.emissionsdaten.wltp.co2_emission_kombi.einheit %></td>
+            </tr>
+            <tr>
+                <th scope="row">Schadstoffklasse:</th>
+                <td><%= car.emissionsdaten.wltp.co2_emission_kombi.wert %> <%= car.emissionsdaten.wltp.co2_emission_kombi.einheit %></td>
+            </tr>
+
         </table>
     </div>
 </div>

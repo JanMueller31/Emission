@@ -27,7 +27,7 @@
 .body-container {
     display: flex;
     margin: auto;
-    background:linear-gradient(to bottom, hsl(200, 50%, 20%), hsl(200,50%,50%));
+    background:linear-gradient(to bottom, hsl(200, 50%, 25%), hsl(200,50%,45%));
 }
 .trefferBox {
     border: 3px solid rgb(150,150,150);
@@ -93,12 +93,37 @@
     color: black;
     text-decoration: none;
 }
+.keineErg {
+    color: black;
+    font-size: 50px;
+}
+
 .detailsContainer {
     align-items: center;
     margin-left: 30%;
     margin-right: 30%;
 }
 .detailsImg {
-    height:480;
-    width:620px;
+    height:480px;
+    width: 674px;
+}
+
+.tableHeader {
+    font-size:25px;
+}
+
+.indexContainer {
+    background-image: url("/public/Images/0_Sonstige/background_img.jpg");
+}
+
+.indexFilter {
+    width:750px;
+    padding-top:5%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.filter-items {
+    margin:3%;
+    max-width: 650px;
 }

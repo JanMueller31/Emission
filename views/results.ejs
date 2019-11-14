@@ -5,11 +5,14 @@
         </div>
 
         <div class="body-column-right">
-            <% if (Object.keys(autos).length == 0) { %>
-                <div>Keine Ergebnisse zu dieser Suche gefunden</div>
-            <% } %>
+
 
             <div class="trefferBox">
+                    <% if (Object.keys(autos).length == 0) { %>
+                        <div class="keineErg">Here aren't the cars you're looking for</div>
+                        <img  class="autoBild" src="/public/Images/0_Sonstige/noCars.jpg">
+                    <% } %>
+
                 <% autos.forEach(car => { %>
                     <div class="autoContainer">
                         <a class="autoSchrift" href="/car/<%=car.$.id %>">
