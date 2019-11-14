@@ -71,6 +71,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A1 Sportback 25 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A1 Sportback 25 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id="02" name = "Audi A3 Sportback 30 TFSI" baureihe="A3 (8V) Sportback">
@@ -144,6 +146,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A3 Sportback 30 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A1 Sportback 30 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id="03" name = "Audi S3 Limousine" baureihe="S3 (8V) Limousine">
@@ -217,6 +221,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi S3 Limousine/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi S3 Limousine/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id="04" name = "Audi RS3 Sportback" baureihe="RS3 (8V) Sportback">
@@ -290,6 +296,7 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi RS3 Sportback/Bild_seite.jpg</icon>
+        <icon2>/Images/Audi RS3 Sportback/Bild_hinten.jpg</icon2>
     </auto>
 
     <auto id = "05" name = "Audi A4 35 TFSI" baureihe = "A4 (B9) Limousine">
@@ -363,6 +370,7 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A4 35 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A4 35 TFSI/Bild_hinten.jpg</icon2>
     </auto>
 
     <auto id = "06" name = "Audi RS4 Avant" baureihe = "RS4 (B9) Avant">
@@ -436,6 +444,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi RS4 Avant/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi RS4 Avant/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "07" name = "Audi A5 Sportback 40 TFSI" baureihe = "A5 (F5) Sportback">
@@ -509,6 +519,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A5 Sportback 40 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A5 Sportback/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "08" name = "Audi A6 45 TFSI" baureihe = "A6 (C8) Limousine">
@@ -582,6 +594,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A6 45 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A6 45 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "09" name = "Audi S6 Avant 45 TFSI" baureihe = "S6 (C8) Avant">
@@ -655,6 +669,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi S6 Avant 45 TFSI/Bild_seite.jpg</icon>
+        <icon2>/Images/Audi S6 Avant 45 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "10" name = "Audi A7 Sportback 45 TFSI" baureihe = "A7 (4K) Sportback">
@@ -728,6 +744,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A7 Sportback 45 TFSI/Bild_seite.jpg</icon>
+        <icon2>/Images/Audi A7 Sportback 45 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id= "11" name = "Audi A8 L 55 TFSI" baureihe="A8 (D5)">
@@ -801,6 +819,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi A8 L 55 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi A8 L 55 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id ="12" name = "Audi Q2 30 TFSI" baureihe = "Q2 (GA)">
@@ -874,6 +894,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi Q2 30 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi Q2 30 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "13" name = "Audi SQ2 TFSI" baureihe = "SQ2">
@@ -947,6 +969,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi SQ2 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi SQ2 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
     
     <auto id = "14" name = "Audi Q3 Sportback 35 TFSI" baureihe = "Q3 (F3) Sportback">
@@ -1020,6 +1044,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi Q3 Sportback 35 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi Q3 Sportback 35 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "15" name = "Audi Q5 45 TFSI" baureihe = "Q5 (FY)">
@@ -1093,6 +1119,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi Q5 45 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi Q5 45 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "16" name = "Audi Q7 55 TFSI" baureihe = "Q7 (4M)">
@@ -1166,6 +1194,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi Q7 55 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi Q7 55 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "17" name = "Audi TT Coupé 40 TFSI" baureihe = "TT (8S) Coupé">
@@ -1239,6 +1269,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi TT Coupé 40 TFSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi TT Coupé 40 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
     
     <auto id = "18" name = "Audi R8 Spyder 5.2 FSI V10" baureihe = "R8 (4S) Spyder">
@@ -1312,6 +1344,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi R8 Spyder 5.2 FSI V10/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi R8 Spyder 5.2 FSI V10/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "19" name = "Audi R8 Coupé 5.2 FSI V10" baureihe = "R8 (4S) Coupé">
@@ -1385,6 +1419,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi R8 Coupé 5.2 FSI V10/Bild_vorne.jpg</icon>
+        <icon2>/Images/Audi R8 Coupé 5.2 FSI V10/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "20" name = "Audi Q8 55 TFSI" baureihe = "R8 (4M)">
@@ -1458,6 +1494,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Audi Q8 55 TFSI/Bild_seite.jpg</icon>
+        <icon2>/Images/Audi Q8 55 TFSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "21" name = "VW Golf 1.0 TSI" baureihe = "Golf (VII)">
@@ -1531,6 +1569,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/VW Golf 1.0 TSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/VW Golf 1.0 TSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "22" name = "VW Passat Variant 1.0 TSI" baureihe = "Passat (B8) Variant">
@@ -1604,6 +1644,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/VW Passat Variant 1.0 TSI/Bild_vorne.jpg</icon>
+        <icon2>/Images/VW Passat Variant 1.0 TSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "23" name = "VW T-Roc 1.0 TSI" baureihe = "T-Roc">
@@ -1677,6 +1719,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/VW T-Roc 1.0 TSI/Bild_seite.jpg</icon>
+        <icon2>/Images/VW T-Roc 1.0 TSI/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "24" name = "Mercedes C 160 T-Modell" baureihe = "C-Klasse (205) T-Modell">
@@ -1750,6 +1794,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Mercedes C160 T-Modell/Bild_vorne2.jpg</icon>
+        <icon2>/Images/Mercedes C160 T-Modell/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "25" name = "Mercedes E 200 Coupé" baureihe = "E-Klasse (238) Coupé">
@@ -1823,6 +1869,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Mercedes E200 Coupé/Bild_vorne2.jpg</icon>
+        <icon2>/Images/Mercedes E200 Coupé/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "26" name = "Mercedes S 450 Coupé" baureihe = "S-Klasse (217) Coupé">
@@ -1896,6 +1944,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Mercedes S450 Coupé/Bild_vorne2.jpg</icon>
+        <icon2>/Images/Mercedes S450 Coupé/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "27" name = "Mercedes S 65 AMG Cabriolet" baureihe = "S-Klasse (217) AMG Cabriolet">
@@ -1969,6 +2019,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Mercedes S 65 AMG Cabriolet SPEEDSHIFT + 7G-TRONIC/Bild_schraeg.jpg</icon>
+        <icon2>/Images/Mercedes S 65 AMG Cabriolet SPEEDSHIFT + 7G-TRONIC/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "28" name = "Mercedes Citan Kastenwagen kompakt" baureihe = "Citan (415) Kastenwagen">
@@ -2042,6 +2094,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/Mercedes Citan Kastenwagen kompakt 108 CDI Worker/Bild_vorne.jpg</icon>
+        <icon2>/Images/Mercedes Citan Kastenwagen kompakt 108 CDI Worker/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "29" name = "BMW M760Li xDrive" baureihe = "7er-Reihe (G11/G12) M Performance">
@@ -2115,6 +2169,8 @@
             </wltp>
         </emissionsdaten>
         <icon>/Images/BMW M760Li xDrive steptronic/Bild_vorne.jpg</icon>
+        <icon2>/Images/BMW M760Li xDrive steptronic/Bild_hinten.jpg</icon2>
+
     </auto>
 
     <auto id = "30" name = "BMW i8 Coupé" baureihe = "i8-Reihe">
@@ -2187,6 +2243,10 @@
                 </co2_emission_kombi>
             </wltp>
         </emissionsdaten>
-        <icon>/Images/BMW i8 Coupé/Bild_vorne.jpg</icon>
+        <icon>/Images/BMW i8 Coupé/Bild_hinten.jpg</icon>
+        <icon2>/Images/BMW i8 Coupé/Bild_vorne.jpg</icon2>
+        <icon3>/Images/BMW i8 Coupé/Bild_seite.jpg</icon3>
+        <icon4>/Images/BMW i8 Coupé/Bild_innen.jpg</icon4>
+
     </auto>
 </autohaus>
