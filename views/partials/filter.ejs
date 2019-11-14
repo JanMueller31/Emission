@@ -3,60 +3,58 @@
 <form action="/search" method="GET">
     <div>
 
-      <div class="input-group mb-3" >
+      <div class="input-group input-group-sm mb-3 ">
         <div class="input-group-prepend">
           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Marke</button>
           <div class="dropdown-menu text-center detailbox">
             <li class="dropdown-header">Wähle die Marke aus</li>
-            <a class="dropdown-item" href="#" id="Audi" onclick="writeInInputField(this.id, Markenfeld)">Audi</a>
-            <a class="dropdown-item" href="#" id="Porsche"  onclick="writeInInputField(this.id, Markenfeld)">Porsche</a>
-            <a class="dropdown-item" href="#"  id="Bugatti"  onclick="writeInInputField(this.id, Markenfeld)">Bugatti</a>
-            <a class="dropdown-item" href="#"  id="VW"  onclick="writeInInputField(this.id, Markenfeld)">VW</a>
-            <a class="dropdown-item" href="#"  id="Mercedes"  onclick="writeInInputField(this.id, Markenfeld)">Mercedes</a>
-            <a class="dropdown-item" href="#"  id="BMW"  onclick="writeInInputField(this.id, Markenfeld)">BMW</a>
-
+            <a class="dropdown-item schrift" href="#" id="Audi" onclick="writeInInputField(this.id, Markenfeld)">Audi</a>
+            <a class="dropdown-item schrift" href="#" id="Porsche"  onclick="writeInInputField(this.id, Markenfeld)">Porsche</a>
+            <a class="dropdown-item schrift" href="#"  id="VW"  onclick="writeInInputField(this.id, Markenfeld)">VW</a>
+            <a class="dropdown-item schrift" href="#"  id="Mercedes"  onclick="writeInInputField(this.id, Markenfeld)">Mercedes</a>
+            <a class="dropdown-item schrift" href="#"  id="BMW"  onclick="writeInInputField(this.id, Markenfeld)">BMW</a>
             <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#" id="---beliebig---" onclick="writeInInputField(this.id, Markenfeld)">---beliebig---</a>
-            </select>
-           
-          </div>
+            <a class="dropdown-item schrift" href="#" id="---beliebig---" onclick="writeInInputField(this.id, Markenfeld)">---beliebig---</a>
+          </select>
+          
+        </div>
         </div>
         <input type="InputField" id="Markenfeld" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
-          placeholder="z.B. Audi, Porsche..." name="autoMarke" value="<%= searchOptions.autoMarke %>">
+          placeholder="z.B. Audi, Porsche..." name="autoMarke" value="<%= searchOptions.autoMarke %>"  >
       </div>
 
+   
 
 
-
-      <div class="input-group mb-3">
+      <div class="input-group input-group-sm mb-3">
         <div class="input-group-prepend">
           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Modell</button>
           <div class="dropdown-menu text-center detailbox">
-            <a class="dropdown-item" href="#" id="A1" onclick="writeInInputField(this.id, modelfield)">A1</a>
-            <a class="dropdown-item" href="#" id="A3" onclick="writeInInputField(this.id, modelfield)">A3</a>
-            <a class="dropdown-item" href="#" id="A4" onclick="writeInInputField(this.id, modelfield)">A4</a>
-            <a class="dropdown-item" href="#" id="A5" onclick="writeInInputField(this.id, modelfield)">A5</a>
-            <a class="dropdown-item" href="#" id="A6" onclick="writeInInputField(this.id, modelfield)">A6</a>
-            <a class="dropdown-item" href="#" id="A7" onclick="writeInInputField(this.id, modelfield)">A7</a>
-            <a class="dropdown-item" href="#" id="A8" onclick="writeInInputField(this.id, modelfield)">A8</a>
-            <a class="dropdown-item" href="#" id="Q2" onclick="writeInInputField(this.id, modelfield)">Q2</a>
-            <a class="dropdown-item" href="#" id="Q3" onclick="writeInInputField(this.id, modelfield)">Q3</a>
-            <a class="dropdown-item" href="#" id="Q5" onclick="writeInInputField(this.id, modelfield)">Q5</a>
-            <a class="dropdown-item" href="#" id="Q7" onclick="writeInInputField(this.id, modelfield)">Q7</a>
-            <a class="dropdown-item" href="#" id="Q8" onclick="writeInInputField(this.id, modelfield)">Q8</a>
-            <a class="dropdown-item" href="#" id="S3" onclick="writeInInputField(this.id, modelfield)">S3</a>
-            <a class="dropdown-item" href="#" id="S6" onclick="writeInInputField(this.id, modelfield)">S6</a>
-            <a class="dropdown-item" href="#" id="RS3" onclick="writeInInputField(this.id, modelfield)">RS3</a>
-            <a class="dropdown-item" href="#" id="RS4" onclick="writeInInputField(this.id, modelfield)">RS4</a>
-            <a class="dropdown-item" href="#" id="R8" onclick="writeInInputField(this.id, modelfield)">R8</a>
-            <a class="dropdown-item" href="#" id="SQ2" onclick="writeInInputField(this.id, modelfield)">SQ2</a>
-            <a class="dropdown-item" href="#" id="TT Coupé" onclick="writeInInputField(this.id, modelfield)">TT Coupé</a>
+            <a class="dropdown-item schrift" href="#" id="A1" onclick="writeInInputField(this.id, modelfield)">A1</a>
+            <a class="dropdown-item schrift" href="#" id="A3" onclick="writeInInputField(this.id, modelfield)">A3</a>
+            <a class="dropdown-item schrift" href="#" id="A4" onclick="writeInInputField(this.id, modelfield)">A4</a>
+            <a class="dropdown-item schrift" href="#" id="A5" onclick="writeInInputField(this.id, modelfield)">A5</a>
+            <a class="dropdown-item schrift" href="#" id="A6" onclick="writeInInputField(this.id, modelfield)">A6</a>
+            <a class="dropdown-item schrift" href="#" id="A7" onclick="writeInInputField(this.id, modelfield)">A7</a>
+            <a class="dropdown-item schrift" href="#" id="A8" onclick="writeInInputField(this.id, modelfield)">A8</a>
+            <a class="dropdown-item schrift" href="#" id="Q2" onclick="writeInInputField(this.id, modelfield)">Q2</a>
+            <a class="dropdown-item schrift" href="#" id="Q3" onclick="writeInInputField(this.id, modelfield)">Q3</a>
+            <a class="dropdown-item schrift" href="#" id="Q5" onclick="writeInInputField(this.id, modelfield)">Q5</a>
+            <a class="dropdown-item schrift" href="#" id="Q7" onclick="writeInInputField(this.id, modelfield)">Q7</a>
+            <a class="dropdown-item schrift" href="#" id="Q8" onclick="writeInInputField(this.id, modelfield)">Q8</a>
+            <a class="dropdown-item schrift" href="#" id="S3" onclick="writeInInputField(this.id, modelfield)">S3</a>
+            <a class="dropdown-item schrift" href="#" id="S6" onclick="writeInInputField(this.id, modelfield)">S6</a>
+            <a class="dropdown-item schrift" href="#" id="RS3" onclick="writeInInputField(this.id, modelfield)">RS3</a>
+            <a class="dropdown-item schrift" href="#" id="RS4" onclick="writeInInputField(this.id, modelfield)">RS4</a>
+            <a class="dropdown-item schrift" href="#" id="R8" onclick="writeInInputField(this.id, modelfield)">R8</a>
+            <a class="dropdown-item schrift" href="#" id="SQ2" onclick="writeInInputField(this.id, modelfield)">SQ2</a>
+            <a class="dropdown-item schrift" href="#" id="TT Coupé" onclick="writeInInputField(this.id, modelfield)">TT Coupé</a>
             
 
             <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, modelfield)" href="#">---beliebig---</a>
+            <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, modelfield)" href="#">---beliebig---</a>
           </div>
         </div>
         <input type="text" id="modelfield" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
@@ -65,54 +63,54 @@
 
 
 
-      <div class="input-group mb-3">
+      <div class="input-group input-group-sm mb-3">
           <div class="input-group-prepend">
             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">Preis bis</button>
             <div class="dropdown-menu text-center detailbox">
-                <a class="dropdown-item" href="#" id="1000" onclick="setslider(this.id, pricefield)">1000 €</a>
-                  <a class="dropdown-item" href="#" id="2000" onclick="setslider(this.id, pricefield)">2000 €</a>
-                  <a class="dropdown-item" href="#" id="3000" onclick="setslider(this.id, pricefield)">3000 €</a>
-                  <a class="dropdown-item" href="#" id="4000" onclick="setslider(this.id, pricefield)">4000 €</a>
-                  <a class="dropdown-item" href="#" id="5000" onclick="setslider(this.id, pricefield)">5000 €</a>
-                  <a class="dropdown-item" href="#" id="10000" onclick="setslider(this.id, pricefield)">10000 €</a>
-                  <a class="dropdown-item" href="#" id="11000" onclick="setslider(this.id, pricefield)">11000 €</a>
-                  <a class="dropdown-item" href="#" id="12000" onclick="setslider(this.id, pricefield)">12000 €</a>
-                  <a class="dropdown-item" href="#" id="13000" onclick="setslider(this.id, pricefield)">13000 €</a>
-                  <a class="dropdown-item" href="#" id="14000" onclick="setslider(this.id, pricefield)">14000 €</a>
-                  <a class="dropdown-item" href="#" id="15000" onclick="setslider(this.id, pricefield)">15000 €</a>
-                  <a class="dropdown-item" href="#" id="20000" onclick="setslider(this.id, pricefield)">20000 €</a>
-                  <a class="dropdown-item" href="#" id="25000" onclick="setslider(this.id, pricefield)">25000 €</a>
-                  <a class="dropdown-item" href="#" id="30000" onclick="setslider(this.id, pricefield)">30000 €</a>
-                  <a class="dropdown-item" href="#" id="35000" onclick="setslider(this.id, pricefield)">35000 €</a>
-                  <a class="dropdown-item" href="#" id="40000" onclick="setslider(this.id, pricefield)">40000 €</a>
-                  <a class="dropdown-item" href="#" id="45000" onclick="setslider(this.id, pricefield)">45000 €</a>
-                  <a class="dropdown-item" href="#" id="50000" onclick="setslider(this.id, pricefield)">50000 €</a>
-                  <a class="dropdown-item" href="#" id="60000" onclick="setslider(this.id, pricefield)">60000 €</a>
-                  <a class="dropdown-item" href="#" id="70000" onclick="setslider(this.id, pricefield)">70000 €</a>
-                  <a class="dropdown-item" href="#" id="80000" onclick="setslider(this.id, pricefield)">80000 €</a>
-                  <a class="dropdown-item" href="#" id="90000" onclick="setslider(this.id, pricefield)">90000 €</a>
-                  <a class="dropdown-item" href="#" id="100000" onclick="setslider(this.id, pricefield)">100000 €</a>
-                  <a class="dropdown-item" href="#" id="110000" onclick="setslider(this.id, pricefield)">110000 €</a>
-                  <a class="dropdown-item" href="#" id="120000" onclick="setslider(this.id, pricefield)">120000 €</a>
-                  <a class="dropdown-item" href="#" id="130000" onclick="setslider(this.id, pricefield)">130000 €</a>
-                  <a class="dropdown-item" href="#" id="140000" onclick="setslider(this.id, pricefield)">140000 €</a>
-                  <a class="dropdown-item" href="#" id="150000" onclick="setslider(this.id, pricefield)">150000 €</a>
-                  <a class="dropdown-item" href="#" id="160000" onclick="setslider(this.id, pricefield)">160000 €</a>
-                  <a class="dropdown-item" href="#" id="170000" onclick="setslider(this.id, pricefield)">170000 €</a>
-                  <a class="dropdown-item" href="#" id="180000" onclick="setslider(this.id, pricefield)">180000 €</a>
-                  <a class="dropdown-item" href="#" id="190000" onclick="setslider(this.id, pricefield)">180000 €</a>
-                  <a class="dropdown-item" href="#" id="200000" onclick="setslider(this.id, pricefield)">200000 €</a>
-                  <a class="dropdown-item" href="#" id="220000" onclick="setslider(this.id, pricefield)">220000 €</a>
-                  <a class="dropdown-item" href="#" id="240000" onclick="setslider(this.id, pricefield)">240000 €</a>
-                  <a class="dropdown-item" href="#" id="260000" onclick="setslider(this.id, pricefield)">260000 €</a>
-                  <a class="dropdown-item" href="#" id="280000" onclick="setslider(this.id, pricefield)">280000 €</a>
-                  <a class="dropdown-item" href="#" id="300000" onclick="setslider(this.id, pricefield)">300000 €</a>
+                <a class="dropdown-item schrift" href="#" id="1000" onclick="setslider(this.id, pricefield)">1000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="2000" onclick="setslider(this.id, pricefield)">2000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="3000" onclick="setslider(this.id, pricefield)">3000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="4000" onclick="setslider(this.id, pricefield)">4000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="5000" onclick="setslider(this.id, pricefield)">5000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="10000" onclick="setslider(this.id, pricefield)">10000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="11000" onclick="setslider(this.id, pricefield)">11000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="12000" onclick="setslider(this.id, pricefield)">12000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="13000" onclick="setslider(this.id, pricefield)">13000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="14000" onclick="setslider(this.id, pricefield)">14000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="15000" onclick="setslider(this.id, pricefield)">15000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="20000" onclick="setslider(this.id, pricefield)">20000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="25000" onclick="setslider(this.id, pricefield)">25000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="30000" onclick="setslider(this.id, pricefield)">30000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="35000" onclick="setslider(this.id, pricefield)">35000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="40000" onclick="setslider(this.id, pricefield)">40000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="45000" onclick="setslider(this.id, pricefield)">45000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="50000" onclick="setslider(this.id, pricefield)">50000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="60000" onclick="setslider(this.id, pricefield)">60000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="70000" onclick="setslider(this.id, pricefield)">70000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="80000" onclick="setslider(this.id, pricefield)">80000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="90000" onclick="setslider(this.id, pricefield)">90000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="100000" onclick="setslider(this.id, pricefield)">100000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="110000" onclick="setslider(this.id, pricefield)">110000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="120000" onclick="setslider(this.id, pricefield)">120000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="130000" onclick="setslider(this.id, pricefield)">130000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="140000" onclick="setslider(this.id, pricefield)">140000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="150000" onclick="setslider(this.id, pricefield)">150000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="160000" onclick="setslider(this.id, pricefield)">160000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="170000" onclick="setslider(this.id, pricefield)">170000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="180000" onclick="setslider(this.id, pricefield)">180000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="190000" onclick="setslider(this.id, pricefield)">180000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="200000" onclick="setslider(this.id, pricefield)">200000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="220000" onclick="setslider(this.id, pricefield)">220000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="240000" onclick="setslider(this.id, pricefield)">240000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="260000" onclick="setslider(this.id, pricefield)">260000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="280000" onclick="setslider(this.id, pricefield)">280000 €</a>
+                  <a class="dropdown-item schrift" href="#" id="300000" onclick="setslider(this.id, pricefield)">300000 €</a>
 
 
                   
               <div role="separator" class="dropdown-divider"></div>
-              <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, pricefield)" href="#">---beliebig---</a>
+              <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, pricefield)" href="#">---beliebig---</a>
             </div>
           </div>
           <input type="range" min="1000" max="300000" value="300000" id="pricefield" class="form-control slider" aria-label="Text input with dropdown button"
@@ -126,29 +124,29 @@
 
 
 
-        <div class="input-group mb-3">
+        <div class="input-group input-group-sm mb-3">
             <div class="input-group-prepend">
               <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Leistung ab</button>
               <div class="dropdown-menu text-center detailbox">
-                <a class="dropdown-item" href="#" id="33" onclick="setslider2(this.id, powerfield)">33 kw</a>
-                <a class="dropdown-item" href="#" id="49" onclick="setslider2(this.id, powerfield)">49 kw</a>
-                <a class="dropdown-item" href="#" id="58" onclick="setslider2(this.id, powerfield)">58 kw</a>
-                <a class="dropdown-item" href="#" id="73" onclick="setslider2(this.id, powerfield)">73 kw</a>
-                <a class="dropdown-item" href="#" id="88" onclick="setslider2(this.id, powerfield)">88 kw</a>
-                <a class="dropdown-item" href="#" id="99" onclick="setslider2(this.id, powerfield)">99 kw</a>
-                <a class="dropdown-item" href="#" id="117" onclick="setslider2(this.id, powerfield)">117 kw</a>
-                <a class="dropdown-item" href="#" id="129" onclick="setslider2(this.id, powerfield)">129 kw</a>
-                <a class="dropdown-item" href="#" id="148" onclick="setslider2(this.id, powerfield)">148 kw</a>
-                <a class="dropdown-item" href="#" id="199" onclick="setslider2(this.id, powerfield)">199 kw</a>
-                <a class="dropdown-item" href="#" id="250" onclick="setslider2(this.id, powerfield)">250 kw</a>
-                <a class="dropdown-item" href="#" id="302" onclick="setslider2(this.id, powerfield)">302 kw</a>
-                <a class="dropdown-item" href="#" id="356" onclick="setslider2(this.id, powerfield)">356 kw</a>
-                <a class="dropdown-item" href="#" id="401" onclick="setslider2(this.id, powerfield)">401 kw</a>
-                <a class="dropdown-item" href="#" id="453" onclick="setslider2(this.id, powerfield)">453 kw</a>
+                <a class="dropdown-item schrift" href="#" id="33" onclick="setslider2(this.id, powerfield)">33 kw</a>
+                <a class="dropdown-item schrift" href="#" id="49" onclick="setslider2(this.id, powerfield)">49 kw</a>
+                <a class="dropdown-item schrift" href="#" id="58" onclick="setslider2(this.id, powerfield)">58 kw</a>
+                <a class="dropdown-item schrift" href="#" id="73" onclick="setslider2(this.id, powerfield)">73 kw</a>
+                <a class="dropdown-item schrift" href="#" id="88" onclick="setslider2(this.id, powerfield)">88 kw</a>
+                <a class="dropdown-item schrift" href="#" id="99" onclick="setslider2(this.id, powerfield)">99 kw</a>
+                <a class="dropdown-item schrift" href="#" id="117" onclick="setslider2(this.id, powerfield)">117 kw</a>
+                <a class="dropdown-item schrift" href="#" id="129" onclick="setslider2(this.id, powerfield)">129 kw</a>
+                <a class="dropdown-item schrift" href="#" id="148" onclick="setslider2(this.id, powerfield)">148 kw</a>
+                <a class="dropdown-item schrift" href="#" id="199" onclick="setslider2(this.id, powerfield)">199 kw</a>
+                <a class="dropdown-item schrift" href="#" id="250" onclick="setslider2(this.id, powerfield)">250 kw</a>
+                <a class="dropdown-item schrift" href="#" id="302" onclick="setslider2(this.id, powerfield)">302 kw</a>
+                <a class="dropdown-item schrift" href="#" id="356" onclick="setslider2(this.id, powerfield)">356 kw</a>
+                <a class="dropdown-item schrift" href="#" id="401" onclick="setslider2(this.id, powerfield)">401 kw</a>
+                <a class="dropdown-item schrift" href="#" id="453" onclick="setslider2(this.id, powerfield)">453 kw</a>
 
                 <div role="separator" class="dropdown-divider"></div>
-                <a class="dropdown-item"  id="---beliebig---" href="#">---beliebig---</a>
+                <a class="dropdown-item schrift"  id="---beliebig---" href="#">---beliebig---</a>
               </div>
             </div>
             <input type="range" min="30" max="500" value="40" id="powerfield" class="form-control slider" aria-label="Text input with dropdown button"
@@ -161,35 +159,35 @@
 
 
 
-          <div class="input-group mb-3">
+          <div class="input-group input-group-sm mb-3">
               <div class="input-group-prepend">
                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">Kilometer bis</button>
                 <div class="dropdown-menu text-center detailbox">
-                  <a class="dropdown-item" href="#" id="1000" onclick="setslider3(this.id, km)">1000 km</a>
-                  <a class="dropdown-item" href="#" id="2000" onclick="setslider3(this.id, km)">2000 km</a>
-                  <a class="dropdown-item" href="#" id="3000" onclick="setslider3(this.id, km)">3000 km</a>
-                  <a class="dropdown-item" href="#" id="4000" onclick="setslider3(this.id, km)">4000 km</a>
-                  <a class="dropdown-item" href="#" id="5000" onclick="setslider3(this.id, km)">5000 km</a>
-                  <a class="dropdown-item" href="#" id="10000" onclick="setslider3(this.id, km)">10000 km</a>
-                  <a class="dropdown-item" href="#" id="15000" onclick="setslider3(this.id, km)">15000 km</a>
-                  <a class="dropdown-item" href="#" id="20000" onclick="setslider3(this.id, km)">20000 km</a>
-                  <a class="dropdown-item" href="#" id="25000" onclick="setslider3(this.id, km)">25000 km</a>
-                  <a class="dropdown-item" href="#" id="30000" onclick="setslider3(this.id, km)">30000 km</a>
-                  <a class="dropdown-item" href="#" id="30500" onclick="setslider3(this.id, km)">35000 km</a>
-                  <a class="dropdown-item" href="#" id="40000" onclick="setslider3(this.id, km)">40000 km</a>
-                  <a class="dropdown-item" href="#" id="45000" onclick="setslider3(this.id, km)">45000 km</a>
-                  <a class="dropdown-item" href="#" id="50000" onclick="setslider3(this.id, km)">50000 km</a>
-                  <a class="dropdown-item" href="#" id="60000" onclick="setslider3(this.id, km)">60000 km</a>
-                  <a class="dropdown-item" href="#" id="70000" onclick="setslider3(this.id, km)">70000 km</a>
-                  <a class="dropdown-item" href="#" id="80000" onclick="setslider3(this.id, km)">80000 km</a>
-                  <a class="dropdown-item" href="#" id="90000" onclick="setslider3(this.id, km)">90000 km</a>
-                  <a class="dropdown-item" href="#" id="100000" onclick="setslider3(this.id, km)">100000 km</a>
-                  <a class="dropdown-item" href="#" id="110000" onclick="setslider3(this.id, km)">110000 km</a>
-                  <a class="dropdown-item" href="#" id="120000" onclick="setslider3(this.id, km)">120000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="1000" onclick="setslider3(this.id, km)">1000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="2000" onclick="setslider3(this.id, km)">2000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="3000" onclick="setslider3(this.id, km)">3000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="4000" onclick="setslider3(this.id, km)">4000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="5000" onclick="setslider3(this.id, km)">5000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="10000" onclick="setslider3(this.id, km)">10000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="15000" onclick="setslider3(this.id, km)">15000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="20000" onclick="setslider3(this.id, km)">20000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="25000" onclick="setslider3(this.id, km)">25000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="30000" onclick="setslider3(this.id, km)">30000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="30500" onclick="setslider3(this.id, km)">35000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="40000" onclick="setslider3(this.id, km)">40000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="45000" onclick="setslider3(this.id, km)">45000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="50000" onclick="setslider3(this.id, km)">50000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="60000" onclick="setslider3(this.id, km)">60000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="70000" onclick="setslider3(this.id, km)">70000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="80000" onclick="setslider3(this.id, km)">80000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="90000" onclick="setslider3(this.id, km)">90000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="100000" onclick="setslider3(this.id, km)">100000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="110000" onclick="setslider3(this.id, km)">110000 km</a>
+                  <a class="dropdown-item schrift" href="#" id="120000" onclick="setslider3(this.id, km)">120000 km</a>
 
                  <div role="separator" class="dropdown-divider"></div>
-                  <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, km)" href="#">---beliebig---</a>
+                  <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, km)" href="#">---beliebig---</a>
                 </div>
               </div>
               <input type="range" min="10000" max="120000" value="120000" id="km" class="form-control slider" aria-label="Text input with dropdown button"
@@ -200,55 +198,55 @@
 
 
 
-            <div class="input-group mb-3">
+            <div class="input-group input-group-sm mb-3">
               <div class="input-group-prepend">
                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">Baujahr</button>
                 <div class="dropdown-menu text-center detailbox">
-                  <a class="dropdown-item" href="#" id="2019" onclick="writeInInputField(this.id, initialRegistration)">2019</a>
-                  <a class="dropdown-item" href="#" id="2018" onclick="writeInInputField(this.id, initialRegistration)">2018</a>
-                  <a class="dropdown-item" href="#" id="2017" onclick="writeInInputField(this.id, initialRegistration)">2017</a>
-                  <a class="dropdown-item" href="#" id="2016" onclick="writeInInputField(this.id, initialRegistration)">2016</a>
-                  <a class="dropdown-item" href="#" id="2015" onclick="writeInInputField(this.id, initialRegistration)">2015</a>
-                  <a class="dropdown-item" href="#" id="2014" onclick="writeInInputField(this.id, initialRegistration)">2014</a>
-                  <a class="dropdown-item" href="#" id="2013" onclick="writeInInputField(this.id, initialRegistration)">2013</a>
-                  <a class="dropdown-item" href="#" id="2012" onclick="writeInInputField(this.id, initialRegistration)">2012</a>
-                  <a class="dropdown-item" href="#" id="2011" onclick="writeInInputField(this.id, initialRegistration)">2011</a>
-                  <a class="dropdown-item" href="#" id="2010" onclick="writeInInputField(this.id, initialRegistration)">2010</a>
-                  <a class="dropdown-item" href="#" id="2009" onclick="writeInInputField(this.id, initialRegistration)">2009</a>
-                  <a class="dropdown-item" href="#" id="2008" onclick="writeInInputField(this.id, initialRegistration)">2008</a>
-                  <a class="dropdown-item" href="#" id="2007" onclick="writeInInputField(this.id, initialRegistration)">2007</a>
-                  <a class="dropdown-item" href="#" id="2006" onclick="writeInInputField(this.id, initialRegistration)">2006</a>
-                  <a class="dropdown-item" href="#" id="2005" onclick="writeInInputField(this.id, initialRegistration)">2005</a>
-                  <a class="dropdown-item" href="#" id="2004" onclick="writeInInputField(this.id, initialRegistration)">2004</a>
-                  <a class="dropdown-item" href="#" id="2003" onclick="writeInInputField(this.id, initialRegistration)">2003</a>
-                  <a class="dropdown-item" href="#" id="2002" onclick="writeInInputField(this.id, initialRegistration)">2002</a>
-                  <a class="dropdown-item" href="#" id="2001" onclick="writeInInputField(this.id, initialRegistration)">2001</a>
-                  <a class="dropdown-item" href="#" id="2000" onclick="writeInInputField(this.id, initialRegistration)">2000</a>
-                  <a class="dropdown-item" href="#" id="1999" onclick="writeInInputField(this.id, initialRegistration)">1999</a>
-                  <a class="dropdown-item" href="#" id="1998" onclick="writeInInputField(this.id, initialRegistration)">1998</a>
-                  <a class="dropdown-item" href="#" id="1997" onclick="writeInInputField(this.id, initialRegistration)">1997</a>
-                  <a class="dropdown-item" href="#" id="1996" onclick="writeInInputField(this.id, initialRegistration)">1996</a>
-                  <a class="dropdown-item" href="#" id="1995" onclick="writeInInputField(this.id, initialRegistration)">1995</a>
-                  <a class="dropdown-item" href="#" id="1994" onclick="writeInInputField(this.id, initialRegistration)">1994</a>
-                  <a class="dropdown-item" href="#" id="1993" onclick="writeInInputField(this.id, initialRegistration)">1993</a>
-                  <a class="dropdown-item" href="#" id="1992" onclick="writeInInputField(this.id, initialRegistration)">1992</a>
-                  <a class="dropdown-item" href="#" id="1991" onclick="writeInInputField(this.id, initialRegistration)">1991</a>
-                  <a class="dropdown-item" href="#" id="1990" onclick="writeInInputField(this.id, initialRegistration)">1990</a>
-                  <a class="dropdown-item" href="#" id="1989" onclick="writeInInputField(this.id, initialRegistration)">1989</a>
-                  <a class="dropdown-item" href="#" id="1988" onclick="writeInInputField(this.id, initialRegistration)">1988</a>
-                  <a class="dropdown-item" href="#" id="1987" onclick="writeInInputField(this.id, initialRegistration)">1987</a>
-                  <a class="dropdown-item" href="#" id="1986" onclick="writeInInputField(this.id, initialRegistration)">1986</a>
-                  <a class="dropdown-item" href="#" id="1985" onclick="writeInInputField(this.id, initialRegistration)">1985</a>
-                  <a class="dropdown-item" href="#" id="1984" onclick="writeInInputField(this.id, initialRegistration)">1984</a>
-                  <a class="dropdown-item" href="#" id="1983" onclick="writeInInputField(this.id, initialRegistration)">1983</a>
-                  <a class="dropdown-item" href="#" id="1982" onclick="writeInInputField(this.id, initialRegistration)">1982</a>
-                  <a class="dropdown-item" href="#" id="1981" onclick="writeInInputField(this.id, initialRegistration)">1981</a>
-                  <a class="dropdown-item" href="#" id="1980" onclick="writeInInputField(this.id, initialRegistration)">1980</a>
+                  <a class="dropdown-item schrift" href="#" id="2019" onclick="writeInInputField(this.id, initialRegistration)">2019</a>
+                  <a class="dropdown-item schrift" href="#" id="2018" onclick="writeInInputField(this.id, initialRegistration)">2018</a>
+                  <a class="dropdown-item schrift" href="#" id="2017" onclick="writeInInputField(this.id, initialRegistration)">2017</a>
+                  <a class="dropdown-item schrift" href="#" id="2016" onclick="writeInInputField(this.id, initialRegistration)">2016</a>
+                  <a class="dropdown-item schrift" href="#" id="2015" onclick="writeInInputField(this.id, initialRegistration)">2015</a>
+                  <a class="dropdown-item schrift" href="#" id="2014" onclick="writeInInputField(this.id, initialRegistration)">2014</a>
+                  <a class="dropdown-item schrift" href="#" id="2013" onclick="writeInInputField(this.id, initialRegistration)">2013</a>
+                  <a class="dropdown-item schrift" href="#" id="2012" onclick="writeInInputField(this.id, initialRegistration)">2012</a>
+                  <a class="dropdown-item schrift" href="#" id="2011" onclick="writeInInputField(this.id, initialRegistration)">2011</a>
+                  <a class="dropdown-item schrift" href="#" id="2010" onclick="writeInInputField(this.id, initialRegistration)">2010</a>
+                  <a class="dropdown-item schrift" href="#" id="2009" onclick="writeInInputField(this.id, initialRegistration)">2009</a>
+                  <a class="dropdown-item schrift" href="#" id="2008" onclick="writeInInputField(this.id, initialRegistration)">2008</a>
+                  <a class="dropdown-item schrift" href="#" id="2007" onclick="writeInInputField(this.id, initialRegistration)">2007</a>
+                  <a class="dropdown-item schrift" href="#" id="2006" onclick="writeInInputField(this.id, initialRegistration)">2006</a>
+                  <a class="dropdown-item schrift" href="#" id="2005" onclick="writeInInputField(this.id, initialRegistration)">2005</a>
+                  <a class="dropdown-item schrift" href="#" id="2004" onclick="writeInInputField(this.id, initialRegistration)">2004</a>
+                  <a class="dropdown-item schrift" href="#" id="2003" onclick="writeInInputField(this.id, initialRegistration)">2003</a>
+                  <a class="dropdown-item schrift" href="#" id="2002" onclick="writeInInputField(this.id, initialRegistration)">2002</a>
+                  <a class="dropdown-item schrift" href="#" id="2001" onclick="writeInInputField(this.id, initialRegistration)">2001</a>
+                  <a class="dropdown-item schrift" href="#" id="2000" onclick="writeInInputField(this.id, initialRegistration)">2000</a>
+                  <a class="dropdown-item schrift" href="#" id="1999" onclick="writeInInputField(this.id, initialRegistration)">1999</a>
+                  <a class="dropdown-item schrift" href="#" id="1998" onclick="writeInInputField(this.id, initialRegistration)">1998</a>
+                  <a class="dropdown-item schrift" href="#" id="1997" onclick="writeInInputField(this.id, initialRegistration)">1997</a>
+                  <a class="dropdown-item schrift" href="#" id="1996" onclick="writeInInputField(this.id, initialRegistration)">1996</a>
+                  <a class="dropdown-item schrift" href="#" id="1995" onclick="writeInInputField(this.id, initialRegistration)">1995</a>
+                  <a class="dropdown-item schrift" href="#" id="1994" onclick="writeInInputField(this.id, initialRegistration)">1994</a>
+                  <a class="dropdown-item schrift" href="#" id="1993" onclick="writeInInputField(this.id, initialRegistration)">1993</a>
+                  <a class="dropdown-item schrift" href="#" id="1992" onclick="writeInInputField(this.id, initialRegistration)">1992</a>
+                  <a class="dropdown-item schrift" href="#" id="1991" onclick="writeInInputField(this.id, initialRegistration)">1991</a>
+                  <a class="dropdown-item schrift" href="#" id="1990" onclick="writeInInputField(this.id, initialRegistration)">1990</a>
+                  <a class="dropdown-item schrift" href="#" id="1989" onclick="writeInInputField(this.id, initialRegistration)">1989</a>
+                  <a class="dropdown-item schrift" href="#" id="1988" onclick="writeInInputField(this.id, initialRegistration)">1988</a>
+                  <a class="dropdown-item schrift" href="#" id="1987" onclick="writeInInputField(this.id, initialRegistration)">1987</a>
+                  <a class="dropdown-item schrift" href="#" id="1986" onclick="writeInInputField(this.id, initialRegistration)">1986</a>
+                  <a class="dropdown-item schrift" href="#" id="1985" onclick="writeInInputField(this.id, initialRegistration)">1985</a>
+                  <a class="dropdown-item schrift" href="#" id="1984" onclick="writeInInputField(this.id, initialRegistration)">1984</a>
+                  <a class="dropdown-item schrift" href="#" id="1983" onclick="writeInInputField(this.id, initialRegistration)">1983</a>
+                  <a class="dropdown-item schrift" href="#" id="1982" onclick="writeInInputField(this.id, initialRegistration)">1982</a>
+                  <a class="dropdown-item schrift" href="#" id="1981" onclick="writeInInputField(this.id, initialRegistration)">1981</a>
+                  <a class="dropdown-item schrift" href="#" id="1980" onclick="writeInInputField(this.id, initialRegistration)">1980</a>
 
 
                   <div role="separator" class="dropdown-divider"></div>
-                  <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, initialRegistration)" href="#">---beliebig---</a>
+                  <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, initialRegistration)" href="#">---beliebig---</a>
                 </div>
               </div>
               <input type="text" id="initialRegistration" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
@@ -259,28 +257,28 @@
 
 
 
-            <div class="input-group mb-3">
+            <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Schadstoffklasse</button>
                   <div class="dropdown-menu text-center detailbox">
-                    <a class="dropdown-item" href="#" id="Euro 1" onclick="writeInInputField(this.id, pollutionClass)">Euro 1</a>
-                    <a class="dropdown-item" href="#" id="Euro 2" onclick="writeInInputField(this.id, pollutionClass)">Euro 2</a>
-                    <a class="dropdown-item" href="#" id="Euro 3" onclick="writeInInputField(this.id, pollutionClass)">Euro 3</a>
-                    <a class="dropdown-item" href="#" id="Euro 4" onclick="writeInInputField(this.id, pollutionClass)">Euro 4</a>
-                    <a class="dropdown-item" href="#" id="Euro 5" onclick="writeInInputField(this.id, pollutionClass)">Euro 5</a>
-                    <a class="dropdown-item" href="#" id="Euro 6" onclick="writeInInputField(this.id, pollutionClass)">Euro 6</a>
-                    <a class="dropdown-item" href="#" id="Euro 6b (NEFZ)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6b (NEFZ)</a>
-                    <a class="dropdown-item" href="#" id="Euro 6c" onclick="writeInInputField(this.id, pollutionClass)">Euro 6c</a>
-                    <a class="dropdown-item" href="#" id="Euro 6d-Temp" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-Temp</a>
-                    <a class="dropdown-item" href="#" id="Euro 6d-TEMP(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP(WLTP)</a>
-                    <a class="dropdown-item" href="#" id="Euro 6d-TEMP-EVAP(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP-EVAP(WLTP)</a>
-                    <a class="dropdown-item" href="#" id="Euro 6d-TEMP-EVAP-ISC(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP-EVAP-ISC(WLTP)</a>
-                    <a class="dropdown-item" href="#" id="LKW" onclick="writeInInputField(this.id, pollutionClass)">LKW</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 1" onclick="writeInInputField(this.id, pollutionClass)">Euro 1</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 2" onclick="writeInInputField(this.id, pollutionClass)">Euro 2</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 3" onclick="writeInInputField(this.id, pollutionClass)">Euro 3</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 4" onclick="writeInInputField(this.id, pollutionClass)">Euro 4</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 5" onclick="writeInInputField(this.id, pollutionClass)">Euro 5</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6" onclick="writeInInputField(this.id, pollutionClass)">Euro 6</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6b (NEFZ)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6b (NEFZ)</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6c" onclick="writeInInputField(this.id, pollutionClass)">Euro 6c</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6d-Temp" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-Temp</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6d-TEMP(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP(WLTP)</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6d-TEMP-EVAP(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP-EVAP(WLTP)</a>
+                    <a class="dropdown-item schrift" href="#" id="Euro 6d-TEMP-EVAP-ISC(WLTP)" onclick="writeInInputField(this.id, pollutionClass)">Euro 6d-TEMP-EVAP-ISC(WLTP)</a>
+                    <a class="dropdown-item schrift" href="#" id="LKW" onclick="writeInInputField(this.id, pollutionClass)">LKW</a>
 
 
                     <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, pollutionClass)" href="#">---beliebig---</a>
+                    <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, pollutionClass)" href="#">---beliebig---</a>
                   </div>
                 </div>
                 <input type="text" id="pollutionClass" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
@@ -290,24 +288,24 @@
               
 
 
-              <div class="input-group mb-3">
+              <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Kraftstoffart</button>
                   <div class="dropdown-menu text-center detailbox">
-                    <a class="dropdown-item" href="#" id="Autogas (LPG)" onclick="writeInInputField(this.id, fuel)">Autogas (LPG)</a>
-                    <a class="dropdown-item" href="#" id="Benzin" onclick="writeInInputField(this.id, fuel)">Benzin (Super)</a>
-                    <a class="dropdown-item" href="#" id="Benzin" onclick="writeInInputField(this.id, fuel)">Benzin (Super Plus)</a>
-                    <a class="dropdown-item" href="#" id="Diesel" onclick="writeInInputField(this.id, fuel)">Diesel</a>
-                    <a class="dropdown-item" href="#" id="Elektro" onclick="writeInInputField(this.id, fuel)">Elektro</a>
-                    <a class="dropdown-item" href="#" id="Erdgas (CNG)" onclick="writeInInputField(this.id, fuel)">Erdgas (CNG)</a>
-                    <a class="dropdown-item" href="#" id="Ethanol (FFV, E85 etc.)" onclick="writeInInputField(this.id, fuel)">Ethanol (FFV, E85 etc.)</a>
-                    <a class="dropdown-item" href="#" id="Hybrid (Benzin/Elektro)" onclick="writeInInputField(this.id, fuel)">Hybrid (Benzin/Elektro)</a>
-                    <a class="dropdown-item" href="#" id="Hybrid (Diesel/Elektro)" onclick="writeInInputField(this.id, fuel)">Hybrid (Diesel/Elektro)</a>
-                    <a class="dropdown-item" href="#" id="Wasserstoff" onclick="writeInInputField(this.id, fuel)">Wasserstoff</a>
+                    <a class="dropdown-item schrift" href="#" id="Autogas (LPG)" onclick="writeInInputField(this.id, fuel)">Autogas (LPG)</a>
+                    <a class="dropdown-item schrift" href="#" id="Benzin" onclick="writeInInputField(this.id, fuel)">Benzin (Super)</a>
+                    <a class="dropdown-item schrift" href="#" id="Benzin" onclick="writeInInputField(this.id, fuel)">Benzin (Super Plus)</a>
+                    <a class="dropdown-item schrift" href="#" id="Diesel" onclick="writeInInputField(this.id, fuel)">Diesel</a>
+                    <a class="dropdown-item schrift" href="#" id="Elektro" onclick="writeInInputField(this.id, fuel)">Elektro</a>
+                    <a class="dropdown-item schrift" href="#" id="Erdgas (CNG)" onclick="writeInInputField(this.id, fuel)">Erdgas (CNG)</a>
+                    <a class="dropdown-item schrift" href="#" id="Ethanol (FFV, E85 etc.)" onclick="writeInInputField(this.id, fuel)">Ethanol (FFV, E85 etc.)</a>
+                    <a class="dropdown-item schrift" href="#" id="Hybrid (Benzin/Elektro)" onclick="writeInInputField(this.id, fuel)">Hybrid (Benzin/Elektro)</a>
+                    <a class="dropdown-item schrift" href="#" id="Hybrid (Diesel/Elektro)" onclick="writeInInputField(this.id, fuel)">Hybrid (Diesel/Elektro)</a>
+                    <a class="dropdown-item schrift" href="#" id="Wasserstoff" onclick="writeInInputField(this.id, fuel)">Wasserstoff</a>
 
                     <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, fuel)" href="#">---beliebig---</a>
+                    <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, fuel)" href="#">---beliebig---</a>
                   </div>
                 </div>
                 <input type="text" id="fuel" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
@@ -317,40 +315,54 @@
 
 
         
-              <div class="input-group mb-3">
+              <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Emission (kombiniert nach WLTP in g/km) bis:</button>
+                    aria-haspopup="true" aria-expanded="false">Emission (komb. nach WLTP in g/km) bis</button>
                   <div class="dropdown-menu text-center detailbox">
-                    <a class="dropdown-item" href="#" id="42" onclick="writeInInputField(this.id, kombiEmissonWltp)">42</a>
-                    <a class="dropdown-item" href="#" id="282" onclick="writeInInputField(this.id, kombiEmissonWltp)">282</a>
+                    <a class="dropdown-item schrift" href="#" id="42" onclick="writeInInputField(this.id, kombiEmissonWltp)">42 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="121" onclick="writeInInputField(this.id, kombiEmissonWltp)">121 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="129" onclick="writeInInputField(this.id, kombiEmissonWltp)">129 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="144" onclick="writeInInputField(this.id, kombiEmissonWltp)">144 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="155" onclick="writeInInputField(this.id, kombiEmissonWltp)">155 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="208" onclick="writeInInputField(this.id, kombiEmissonWltp)">208 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="214" onclick="writeInInputField(this.id, kombiEmissonWltp)">214 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="282" onclick="writeInInputField(this.id, kombiEmissonWltp)">282 g/km</a>
+
 
  
   
                     <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, kombiEmissonWltp)" href="#">---beliebig---</a>
+                    <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, kombiEmissonWltp)" href="#">---beliebig---</a>
                   </div>
                 </div>
                 <input type="text" id="kombiEmissonWltp" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
-                  placeholder="z.B. 2019, 1987" name="autoEmissionWLTP" value="<%= searchOptions.autoEmissionWLTP %>">
+                  placeholder="z.B. 42, 282" name="autoEmissionWLTP" value="<%= searchOptions.autoEmissionWLTP %>">
               </div>
 
 
 
 
               
-              <div class="input-group mb-3">
+              <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Emission (kombiniert nach NEFZ in g/km) bis:</button>
+                    aria-haspopup="true" aria-expanded="false">Emission (komb. nach NEFZ in g/km) bis</button>
                   <div class="dropdown-menu text-center detailbox">
-                    <a class="dropdown-item" href="#" id="42" onclick="writeInInputField(this.id, kombiEmissonNefz)">42</a>
-                    <a class="dropdown-item" href="#" id="282" onclick="writeInInputField(this.id, kombiEmissonNefz)">282</a>
+                    <a class="dropdown-item schrift" href="#" id="137" onclick="writeInInputField(this.id, kombiEmissonNefz)">137 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="145" onclick="writeInInputField(this.id, kombiEmissonNefz)">145 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="149" onclick="writeInInputField(this.id, kombiEmissonNefz)">149 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="150" onclick="writeInInputField(this.id, kombiEmissonNefz)">150 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="159" onclick="writeInInputField(this.id, kombiEmissonNefz)">159 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="163" onclick="writeInInputField(this.id, kombiEmissonNefz)">163 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="170" onclick="writeInInputField(this.id, kombiEmissonNefz)">170 g/km</a>
+                    <a class="dropdown-item schrift" href="#" id="174" onclick="writeInInputField(this.id, kombiEmissonNefz)">175 g/km</a>
+
 
  
   
                     <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, kombiEmissonNefz)" href="#">---beliebig---</a>
+                    <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, kombiEmissonNefz)" href="#">---beliebig---</a>
                   </div>
                 </div>
                 <input type="text" id="kombiEmissonNefz" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"
@@ -360,18 +372,31 @@
 
 
 
-              <div class="input-group mb-3">
+              <div class="input-group input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Kraftstoffverbrauch (kombiniert) nach NEFZ bis:</button>
+                    aria-haspopup="true" aria-expanded="false">Kraftstoffverbrauch (komb. nach NEFZ) bis</button>
                   <div class="dropdown-menu text-center detailbox">
-                    <a class="dropdown-item" href="#" id="42" onclick="writeInInputField(this.id, kombiConsumptionNefz)">42</a>
-                    <a class="dropdown-item" href="#" id="282" onclick="writeInInputField(this.id, kombiConsumptionNefz)">282</a>
+                    <a class="dropdown-item schrift" href="#" id="2" onclick="writeInInputField(this.id, kombiConsumptionNefz)">2l</a>
+                    <a class="dropdown-item schrift" href="#" id="3" onclick="writeInInputField(this.id, kombiConsumptionNefz)">3l</a>
+                    <a class="dropdown-item schrift" href="#" id="4" onclick="writeInInputField(this.id, kombiConsumptionNefz)">4l</a>
+                    <a class="dropdown-item schrift" href="#" id="5" onclick="writeInInputField(this.id, kombiConsumptionNefz)">5l</a>
+                    <a class="dropdown-item schrift" href="#" id="6" onclick="writeInInputField(this.id, kombiConsumptionNefz)">6l</a>
+                    <a class="dropdown-item schrift" href="#" id="7" onclick="writeInInputField(this.id, kombiConsumptionNefz)">7l</a>
+                    <a class="dropdown-item schrift" href="#" id="8" onclick="writeInInputField(this.id, kombiConsumptionNefz)">8l</a>
+                    <a class="dropdown-item schrift" href="#" id="9" onclick="writeInInputField(this.id, kombiConsumptionNefz)">9l</a>
+                    <a class="dropdown-item schrift" href="#" id="10" onclick="writeInInputField(this.id, kombiConsumptionNefz)">10l</a>
+                    <a class="dropdown-item schrift" href="#" id="11" onclick="writeInInputField(this.id, kombiConsumptionNefz)">11l</a>
+                    <a class="dropdown-item schrift" href="#" id="12" onclick="writeInInputField(this.id, kombiConsumptionNefz)">12l</a>
+                    <a class="dropdown-item schrift" href="#" id="13" onclick="writeInInputField(this.id, kombiConsumptionNefz)">13l</a>
+                    <a class="dropdown-item schrift" href="#" id="14" onclick="writeInInputField(this.id, kombiConsumptionNefz)">14l</a>
+                    <a class="dropdown-item schrift" href="#" id="15" onclick="writeInInputField(this.id, kombiConsumptionNefz)">15l</a>
+
 
  
   
                     <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item" id="---beliebig---" onclick="writeInInputField(this.id, kombiConsumptionNefz)" href="#">---beliebig---</a>
+                    <a class="dropdown-item schrift" id="---beliebig---" onclick="writeInInputField(this.id, kombiConsumptionNefz)" href="#">---beliebig---</a>
                   </div>
                 </div>
                 <input type="text" id="kombiConsumptionNefz" class="form-control textfield" onfocus="this.value=''" aria-label="Text input with dropdown button"

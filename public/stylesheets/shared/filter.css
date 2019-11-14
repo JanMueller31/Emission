@@ -16,6 +16,7 @@
     padding-bottom: 15px;
     padding-top: 15px;
     color: white;
+    padding-right: 15px;
 
 }
 
@@ -96,50 +97,65 @@
 }
 
 
-
-.slidecontainer {
-    width: 100%;
-  }
-  
-  /* für die Schiene zum bewegen*/
-  .slider {
-    -webkit-appearance: none;
-    width: 100%;
-    margin-left: 8px;
-    height: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: .9;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-  }
-  
-  .slider:hover {
-    opacity: 10;
-  }
-  
-  /* für den Balken zum bewegen*/
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 50px;
-    height: 50px;
-    background: rgb(436, 221, 8);
-    cursor: pointer;
-    border-radius: 50%;
-  }
-  
   
 .range{
     margin-top: 10px;
     margin-left: 5px;
 }
 
+/*Slider*/
+input[type=range]:focus {
+    outline: none;
+  }
+  
+  input[type=range] {
+    -webkit-appearance: none;
+    margin-top: 1px;
+    width: 100%;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background-color: silver;
+    border-radius: 5px;
+  }
+  
+  
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 8px solid gray;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: -14px;
+  }
+  
+  
+  input[type=range]::-ms-fill-lower {
+    background-color: gray;
+    border-radius: 5px;
+  }
+  input[type=range]::-ms-fill-upper {
+    background-color: silver;
+    border-radius: 5px;
+  }
+
+  input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+
+
 
 
 
 .detailbox{
-    max-height: 500px;
+    max-height: 200px;
     overflow: auto;
 }
 
@@ -150,4 +166,9 @@
 
 .textfield{
     margin-right: 10px;
+}
+
+
+.schrift{
+    font-size: 80%;
 }
